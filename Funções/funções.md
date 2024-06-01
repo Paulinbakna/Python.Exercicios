@@ -17,7 +17,7 @@ Ex1= Crie uma função que receba dois números e retorne o maior deles.
 
 Ex2= Escreva uma função que verifique se uma string é um palíndromo.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Fun%C3%A7%C3%B5es/Ex2.py
 
 ---
 
