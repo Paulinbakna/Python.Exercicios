@@ -22,4 +22,4 @@ Ex2= Crie um programa que imprima todos os números de 1 a 100 que são múltipl
 
 Ex3= Use um loop para calcular o fatorial de um número fornecido pelo usuário.
 
-- Link no GitHub: 
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Controle_De_Fluxo/Ex3.py
