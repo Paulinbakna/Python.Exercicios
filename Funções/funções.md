@@ -11,7 +11,7 @@
 
 Ex1= Crie uma função que receba dois números e retorne o maior deles.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Fun%C3%A7%C3%B5es/Ex1.py
 
 ---
 
