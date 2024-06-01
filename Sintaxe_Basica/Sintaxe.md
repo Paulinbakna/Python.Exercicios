@@ -13,10 +13,10 @@ Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Sinta
 
 Ex2= Calcule a soma, subtração, multiplicação e divisão de dois números fornecidos pelo usuário.
 
-Link no GitHub: 
+Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Sintaxe_Basica/Ex2.py
 
 ---
 
 Ex3= Converta uma temperatura de Celsius para Fahrenheit.
 
-Link no GitHub:
+Link no GitHub: 
