@@ -8,8 +8,5 @@ class Carro:
         print(f'Modelo: {self.modelo}')
         print(f'Ano: {self.ano}')
         
-carro1=Carro('Ford','Mustang',2021)
-print(f'Marca: {carro1.marca}')
-print(f'Modelo: {carro1.modelo}')
-print(f'Ano: {carro1.ano}')
-        
+carro2=Carro('Ford','Mustang',2022)
+carro2.exibir()

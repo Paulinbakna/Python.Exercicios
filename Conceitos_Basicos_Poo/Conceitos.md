@@ -9,7 +9,7 @@
 
 Ex1= Crie uma classe `Carro` com atributos `marca`, `modelo` e `ano`. Instancie um objeto e imprima seus atributos.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Conceitos_Basicos_Poo/Ex1.py
 
 ---
 
