@@ -10,7 +10,7 @@
 
 Ex1= Escreva um programa que verifique se um número fornecido pelo usuário é par ou ímpar.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Controle_De_Fluxo/Ex1.py
 
 ---
 
