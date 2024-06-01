@@ -23,4 +23,4 @@ Ex2= Escreva uma função que verifique se uma string é um palíndromo.
 
 Ex3= Desenvolva uma função lambda que eleve um número ao quadrado.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Fun%C3%A7%C3%B5es/Ex3.py
