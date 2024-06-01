@@ -23,7 +23,9 @@ Ex3= Implemente um programa que remova duplicatas de uma lista.
 
 - Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Extruturas_de_dados/Ex3.py
 
-- Funções de Listas,Dicionarios e Tuplas: 
+---
+
+**Funções de Listas,Dicionarios e Tuplas** 
 
 
 ### Listas
