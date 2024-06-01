@@ -9,7 +9,7 @@
 
 Ex1= Crie uma lista com 10 números e encontre o maior e o menor valor.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Extruturas_de_dados/Ex1.py
 
 ---
 
