@@ -21,4 +21,4 @@ Ex2= Adicione um método `exibir_informacoes` na classe `Carro` que imprime os d
 
 Ex3: Crie uma classe `ContaBancaria` com atributos `titular`, `saldo` e `numero_conta`. Adicione métodos `depositar` e `sacar`, onde `depositar` adiciona um valor ao saldo e `sacar` subtrai um valor do saldo, imprimindo uma mensagem de erro se o saldo for insuficiente.**
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Conceitos_Basicos_Poo/Ex3.py
