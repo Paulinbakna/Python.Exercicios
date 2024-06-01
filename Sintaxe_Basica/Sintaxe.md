@@ -7,13 +7,13 @@
 
 Ex1= Escreva um programa que peça ao usuário para inserir seu nome e idade, e imprima uma mensagem de boas-vindas.
 
-Link no GitHub:
+Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Sintaxe_Basica/Ex1.py
 
 ---
 
 Ex2= Calcule a soma, subtração, multiplicação e divisão de dois números fornecidos pelo usuário.
 
-Link no GitHub:
+Link no GitHub: 
 
 ---
 
