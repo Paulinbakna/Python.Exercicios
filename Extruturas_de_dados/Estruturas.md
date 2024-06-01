@@ -15,7 +15,7 @@ Ex1= Crie uma lista com 10 números e encontre o maior e o menor valor.
 
 Ex2= Construa um dicionário que armazene os nomes e idades de 5 pessoas e imprima a idade da pessoa mais velha.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Extruturas_de_dados/Ex2.py
 
 ---
 
