@@ -3,7 +3,7 @@ import random
 from colorama import Fore, Style, init
 
 init()
-
+#funções e status do personagem
 class Personagem:
     def __init__(self, nome):
         self.nome = nome
@@ -28,7 +28,7 @@ class Personagem:
 
     def ganhar_moedas(self, moedas):
         self.moedas += moedas
-        print(f'{Fore.YELLOW}{self.nome} ganhou {moedas} moedas!\nTotal de moedas atual: {self.moedas}{Style.RESET_ALL}')
+        print(f'{Fore.YELLOW}{self.nome} ganhou {moedas} moedas!{Style.RESET_ALL}\nTotal de moedas atual:{Fore.YELLOW} {self.moedas}{Style.RESET_ALL}')
 
     def subir_de_nivel(self):
         self.xp -= self.xp_para_proximo_nivel
@@ -46,6 +46,7 @@ class Personagem:
         else:
             print(f'{Fore.RED}Moedas insuficientes para comprar {item.nome}{Style.RESET_ALL}')
 
+#classe guerreiro  e funções da classe
 class Guerreiro(Personagem):
     def __init__(self, nome):
         super().__init__(nome)
@@ -56,6 +57,7 @@ class Guerreiro(Personagem):
     def usar_espada(self):
         print(f'{self.nome} usou a espada!')
 
+#classe mago e funções da classe
 class Mago(Personagem):
     def __init__(self, nome):
         super().__init__(nome)
@@ -65,7 +67,8 @@ class Mago(Personagem):
 
     def usar_magia(self):
         print(f'{self.nome} usou a magia bola de fogo!')
-
+        
+#classe arqueiro e funções da classe
 class Arqueiro(Personagem):
     def __init__(self, nome):
         super().__init__(nome)
@@ -75,7 +78,8 @@ class Arqueiro(Personagem):
 
     def usar_arco(self):
         print(f'{self.nome} usou o arco e jogou uma flecha!')
-
+        
+#classe  curandeiro e funções da classe
 class Curandeiro(Personagem):
     def __init__(self, nome):
         super().__init__(nome)
@@ -86,7 +90,7 @@ class Curandeiro(Personagem):
     def curar(self, alvo: Personagem):
         alvo.vida += 10
         print(f'{self.nome} curou {alvo.nome}')
-
+#classe para criar o inimgo e algumas funções como atacar, e sofrer dano do jogador
 class Inimigo:
     def __init__(self, nome, ataque, xp, moedas):
         self.nome = nome
@@ -113,6 +117,7 @@ class Inimigo:
             return True
         return False
 
+#classe para criar um Boss no jogo e algumas funções como atacar e sofrer dano  do player
 class Boss:
     def __init__(self, nome, ataque, xp, moedas):
         self.nome = nome
@@ -139,6 +144,7 @@ class Boss:
             return True
         return False
 
+#classe para criar o item que sera armazenado na lojinha do jogo
 class Item:
     def __init__(self, nome, custo, efeito):
         self.nome = nome
@@ -147,7 +153,8 @@ class Item:
 
     def usar(self, personagem: Personagem):
         raise NotImplementedError('Use a subclasse específica do item')
-
+    
+#classe para criar a poção e funçoes de adicionar vida
 class PocaoDeVida(Item):
     def __init__(self):
         super().__init__('Poção De Vida', 10, 'Restaura 20 pontos de vida')
@@ -156,6 +163,7 @@ class PocaoDeVida(Item):
         personagem.vida += 20
         print(f'{Fore.GREEN}{personagem.nome} restaurou 20 pontos de vida!{Style.RESET_ALL}')
 
+#classe para criar a espada e funções  de adicionar ataque ao player
 class Nichirin(Item):
     def __init__(self):
         super().__init__('Nichirin', 20, '+25 ataque')
@@ -164,6 +172,7 @@ class Nichirin(Item):
         personagem.ataque += 25
         print(f'{Fore.GREEN}{personagem.nome} equipou Nichirin e aumentou seu ataque em 25 pontos!{Style.RESET_ALL}')
 
+#classe para criar a espada mais forte e funções de adicionar ataque ao player
 class KatanaWakizashi(Item):
     def __init__(self):
         super().__init__('Katana Wakizashi', 300, '+100 ataque')
@@ -172,6 +181,7 @@ class KatanaWakizashi(Item):
         personagem.ataque += 100
         print(f'{Fore.GREEN}{personagem.nome} equipou Katana Wakizashi e aumentou seu ataque em 100 pontos!{Style.RESET_ALL}')
 
+#classe para criar o esscudo e funções de adicionar defesa ao player
 class EscudoBasico(Item):
     def __init__(self):
         super().__init__('Escudo Básico', 20, '+15 Defesa')
@@ -180,6 +190,7 @@ class EscudoBasico(Item):
         personagem.defesa += 15
         print(f'{Fore.GREEN}{personagem.nome} equipou o Escudo Básico e aumentou sua defesa em 15 pontos!{Style.RESET_ALL}')
 
+#classe para criar o escudo e funções de adicionar magia ao player
 class AmuletoDeMagia(Item):
     def __init__(self):
         super().__init__('Amuleto De Magia', 20, '+15 magia')
@@ -188,6 +199,7 @@ class AmuletoDeMagia(Item):
         personagem.magia += 15
         print(f'{Fore.GREEN}{personagem.nome} equipou o Amuleto De Magia e aumentou sua magia em 15 pontos!{Style.RESET_ALL}')
 
+#classe para criar botas e funções de adicionar alcance ao player
 class BotasDeAgilidade(Item):
     def __init__(self):
         super().__init__('Botas De Agilidade', 20, '+5 alcance')
@@ -196,6 +208,7 @@ class BotasDeAgilidade(Item):
         personagem.alcance += 5
         print(f'{Fore.GREEN}{personagem.nome} equipou as Botas De Agilidade e aumentou seu alcance em 5 pontos!{Style.RESET_ALL}')
 
+#classe para mostrar a lojinha ao player e os itens que foram criados
 class Loja:
     def __init__(self):
         self.itens = [
@@ -207,23 +220,22 @@ class Loja:
             BotasDeAgilidade()
         ]
 
-    def mostrar_itens(self):
-        print('=' * 40)
-        print(f'             -- LOJINHA -- ')
-        print('=' * 40)
+    def mostrar_itens(self, personagem: Personagem):
+        print(f'{Fore.YELLOW}Bem-vindo à loja! Você tem {personagem.moedas} moedas.{Style.RESET_ALL}')
         for i, item in enumerate(self.itens, 1):
-            print(f'{i}. {item.nome} - {Fore.YELLOW}{item.custo} moedas{Style.RESET_ALL} - {Fore.GREEN}{item.efeito}{Style.RESET_ALL}')
+            print(f'{i}. {item.nome} - Custo: {Fore.YELLOW}{item.custo} moedas{Style.RESET_ALL} - Efeito: {Fore.GREEN}{item.efeito}{Style.RESET_ALL}')
         print('0. Sair da loja')
-
+            
     def comprar(self, personagem: Personagem, escolha: int):
-        if 1 <= escolha <= len(self.itens):
+        if escolha == 0:
+            print(f'{Fore.CYAN}Você saiu da loja.{Style.RESET_ALL}')
+        elif 1 <= escolha <= len(self.itens):
             item = self.itens[escolha - 1]
             personagem.comprar_item(item)
-        elif escolha == 0:
-            print(f'{Fore.CYAN}Você saiu da loja.{Style.RESET_ALL}')
         else:
             print(f'{Fore.RED}Escolha inválida.{Style.RESET_ALL}')
 
+#classe para facilitar ao criar um inimigo 
 class Arena:
     def __init__(self, personagem):
         self.personagem = personagem
@@ -250,13 +262,18 @@ class Arena:
         if self.personagem.vida <= 0:
             print(f'{Fore.RED}{self.personagem.nome} foi derrotado!{Style.RESET_ALL}')
             print('-- FIM DO JOGO --')
-
+            
+#pedido ao jogador para criar o seu persongem
 while True:
     print('=' * 40)
     print(f'{Fore.BLUE}      -- Bem vindo ao PYTHON RPG -- {Style.RESET_ALL}')
     print('=' * 40)
+    print('Um mundo onde você irá enfrentar inimigos pelo mundo!')
+    print()
+    sleep(2)
     nome = str(input('Para começar, crie um nome para o seu personagem: '))
     print(f'\nCerto {nome}, agora escolha uma classe para seu personagem:')
+    sleep(2)
     print('=' * 40)
     print(f'1. Guerreiro: Buffs: {Fore.GREEN}+5 ataque, +5 defesa{Style.RESET_ALL} | Debuffs: {Fore.RED}-3 alcance{Style.RESET_ALL}')
     print(f'2. Mago: Buffs: {Fore.GREEN}+3 ataque, +4 alcance{Style.RESET_ALL}  | Debuffs: {Fore.RED}-2 defesa{Style.RESET_ALL}')
@@ -280,6 +297,7 @@ while True:
     print(f'Parabéns, você criou um personagem com a classe: {personagem.__class__.__name__} e que se chama: {personagem.nome}')
     break
 
+#criando o inimigo
 sleep(2)
 arena = Arena(personagem)
 inimigo = Inimigo('Goblin', 15, 50, 100)
@@ -289,8 +307,39 @@ if personagem.vida > 0:
     sleep(2)
     print(f'{personagem.nome} voltou a explorar o mundo....')
     sleep(3)
+    print(f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}')
     boss = Boss('Ogro', 25, 300, 500)
     arena.batalha(boss)
+
+if personagem.vida > 0:
+    sleep(2)
+    print(f'{personagem.nome} voltou a explorar o mundo....')
+    sleep(3)
+    print(f'{Fore.GREEN}Você encontrou uma lojinha!{Style.RESET_ALL}')
+    print('Entrando na loja.....')
+    sleep(2)
+    loja = Loja()
+    while True:
+        loja.mostrar_itens(personagem)
+        escolha_item = int(input('Digite o número do item que deseja comprar: '))
+        if escolha_item == 0:
+            break
+        loja.comprar(personagem, escolha_item)
+
+sleep(2)
+arena = Arena(personagem)
+inimigo = Inimigo('Lobo', 20, 75, 125)
+arena.batalha(inimigo)
+
+if personagem.vida > 0:
+    sleep(2)
+    print(f'{personagem.nome} voltou a explorar o mundo....')
+    sleep(3)
+
+sleep(2)
+arena = Arena(personagem)
+inimigo = Inimigo('Porco', 10, 45, 75)
+arena.batalha(inimigo)
 
 if personagem.vida > 0:
     sleep(2)
@@ -306,3 +355,13 @@ if personagem.vida > 0:
         if escolha_item == 0:
             break
         loja.comprar(personagem, escolha_item)
+
+
+if personagem.vida > 0:
+    sleep(2)
+    print(f'{personagem.nome} voltou a explorar o mundo....')
+    sleep(3)
+    print(f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}')
+    boss = Boss('Malenia', 40, 500, 700)
+    arena.batalha(boss)
+
