@@ -41,8 +41,8 @@ class Personagem:
     def comprar_item(self, item):
         if self.moedas >= item.custo:
             self.moedas -= item.custo
-            item.usar(self)
             print(f'{Fore.GREEN}{self.nome} comprou {item.nome}!{Style.RESET_ALL}')
+            item.usar(self)
         else:
             print(f'{Fore.RED}Moedas insuficientes para comprar {item.nome}{Style.RESET_ALL}')
 
@@ -221,7 +221,7 @@ class Loja:
         ]
 
     def mostrar_itens(self, personagem: Personagem):
-        print(f'{Fore.YELLOW}Bem-vindo à loja! Você tem {personagem.moedas} moedas.{Style.RESET_ALL}')
+        print(f'{Fore.MAGENTA}Bem-vindo à loja!{Style.RESET_ALL}\n Você tem {personagem.moedas}{Fore.YELLOW} moedas.{Style.RESET_ALL}')
         for i, item in enumerate(self.itens, 1):
             print(f'{i}. {item.nome} - Custo: {Fore.YELLOW}{item.custo} moedas{Style.RESET_ALL} - Efeito: {Fore.GREEN}{item.efeito}{Style.RESET_ALL}')
         print('0. Sair da loja')
