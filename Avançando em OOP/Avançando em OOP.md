@@ -10,7 +10,7 @@
 
 Ex1= Crie uma classe `Veiculo` com atributos e métodos básicos, e herde essa classe para criar uma classe `Carro` e `Moto`.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex1.py
 
 ---
 
