@@ -16,7 +16,7 @@ Ex1= Crie uma classe `Veiculo` com atributos e métodos básicos, e herde essa c
 
 Ex2= Adicione métodos específicos para `Carro` e `Moto` e demonstre polimorfismo entre eles.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex2.py
 
 ---
 
