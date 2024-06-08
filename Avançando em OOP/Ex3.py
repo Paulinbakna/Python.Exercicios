@@ -29,7 +29,7 @@ class ContaCorrente(ContaBancaria):
     
     def sacar(self,valor):
         soma=self.consultar_saldo() + self.__limite_cheque_especial
-        if 0 < valor <=(soma):
+        if 0 < valor <= soma:
             novo_saldo= self.consultar_saldo() - valor
             if novo_saldo < 0:
                 self.limite_cheque_especial+=novo_saldo
