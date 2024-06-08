@@ -45,8 +45,20 @@ Mostre como a encapsulação protege os dados privados.
 
 - Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex3.py
 
+---
+
 Ex4: Sistema de Biblioteca
 Crie uma classe Livro com atributos privados para título, autor e número de páginas. 
 Crie uma subclasse LivroDigital com um atributo adicional para o tamanho do arquivo (em MB). Implemente métodos para exibir informações sobre os livros e para calcular o tempo estimado de leitura (considerando uma taxa de leitura de 1 página por minuto).
+
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex4.py
+
+---
+
+Ex5: Sistema de Veículos
+Crie uma classe Veiculo com atributos privados para marca e modelo, e métodos públicos para exibir essas informações. 
+Crie subclasses Carro e Motocicleta que herdam de Veiculo. 
+A classe Carro deve ter um atributo adicional para o número de portas e a classe Motocicleta deve ter um atributo adicional para o tipo de guidão. 
+Implemente métodos para exibir as informações completas dos veículos.
 
 - Link no GitHub: 
