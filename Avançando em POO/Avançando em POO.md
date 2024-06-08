@@ -75,9 +75,20 @@ Implemente métodos para calcular o salário total (considerando bônus para Ger
 
 ---
 
-Exemplo 5: Sistema de Reservas de Hotel
+Ex7: Sistema de Reservas de Hotel
 Crie uma classe Reserva com atributos privados para nome do hóspede e número do quarto. 
 Crie uma subclasse ReservaSimples e outra subclasse ReservaLuxo. 
 A ReservaSimples deve ter um atributo adicional para a duração da estadia, enquanto a ReservaLuxo deve ter um atributo adicional para o serviço de quarto incluído. Implemente métodos para exibir informações sobre a reserva e calcular o custo total.
 
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex7.py
+
+---
+
+Ex8: Sistema de Gestão de Produtos
+Crie uma classe Produto com atributos privados para nome e preço. 
+Crie uma subclasse ProdutoPerecivel com um atributo adicional para a data de validade e uma subclasse ProdutoEletronico com um atributo adicional para a garantia. 
+Implemente métodos para exibir informações sobre os produtos e para calcular o preço com desconto.
+
 - Link no GitHub: 
+
+---
