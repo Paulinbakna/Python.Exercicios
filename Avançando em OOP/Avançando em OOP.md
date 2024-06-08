@@ -61,4 +61,13 @@ Crie subclasses Carro e Motocicleta que herdam de Veiculo.
 A classe Carro deve ter um atributo adicional para o número de portas e a classe Motocicleta deve ter um atributo adicional para o tipo de guidão. 
 Implemente métodos para exibir as informações completas dos veículos.
 
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex5.py
+
+---
+Ex6: Sistema de Empregados
+Crie uma classe Empregado com atributos privados para nome e salário. 
+Crie uma subclasse Gerente com um atributo adicional para o bônus anual. 
+Crie outra subclasse Desenvolvedor com um atributo adicional para a linguagem de programação. 
+Implemente métodos para calcular o salário total (considerando bônus para Gerente) e para exibir as informações dos empregados.
+
 - Link no GitHub: 
