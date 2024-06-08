@@ -89,6 +89,7 @@ Crie uma classe Produto com atributos privados para nome e preço.
 Crie uma subclasse ProdutoPerecivel com um atributo adicional para a data de validade e uma subclasse ProdutoEletronico com um atributo adicional para a garantia. 
 Implemente métodos para exibir informações sobre os produtos e para calcular o preço com desconto.
 
-- Link no GitHub: 
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20POO/Ex8.py
 
 ---
+ 
