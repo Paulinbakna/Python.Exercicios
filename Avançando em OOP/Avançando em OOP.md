@@ -44,3 +44,9 @@ Utilize métodos de ambas as contas para demonstrar polimorfismo.
 Mostre como a encapsulação protege os dados privados.
 
 - Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex3.py
+
+Ex4: Sistema de Biblioteca
+Crie uma classe Livro com atributos privados para título, autor e número de páginas. 
+Crie uma subclasse LivroDigital com um atributo adicional para o tamanho do arquivo (em MB). Implemente métodos para exibir informações sobre os livros e para calcular o tempo estimado de leitura (considerando uma taxa de leitura de 1 página por minuto).
+
+- Link no GitHub: 
