@@ -64,10 +64,20 @@ Implemente métodos para exibir as informações completas dos veículos.
 - Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex5.py
 
 ---
+
 Ex6: Sistema de Empregados
 Crie uma classe Empregado com atributos privados para nome e salário. 
 Crie uma subclasse Gerente com um atributo adicional para o bônus anual. 
 Crie outra subclasse Desenvolvedor com um atributo adicional para a linguagem de programação. 
 Implemente métodos para calcular o salário total (considerando bônus para Gerente) e para exibir as informações dos empregados.
+
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex6.py
+
+---
+
+Exemplo 5: Sistema de Reservas de Hotel
+Crie uma classe Reserva com atributos privados para nome do hóspede e número do quarto. 
+Crie uma subclasse ReservaSimples e outra subclasse ReservaLuxo. 
+A ReservaSimples deve ter um atributo adicional para a duração da estadia, enquanto a ReservaLuxo deve ter um atributo adicional para o serviço de quarto incluído. Implemente métodos para exibir informações sobre a reserva e calcular o custo total.
 
 - Link no GitHub: 
