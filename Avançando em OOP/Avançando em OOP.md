@@ -43,4 +43,4 @@ Crie instâncias de ContaCorrente e ContaPoupanca.
 Utilize métodos de ambas as contas para demonstrar polimorfismo.
 Mostre como a encapsulação protege os dados privados.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20OOP/Ex3.py
