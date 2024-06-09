@@ -98,4 +98,13 @@ Crie uma classe Transporte com atributos privados para tipo e capacidade.
 Crie uma subclasse TransporteTerrestre com um atributo adicional para o tipo de combustível e uma subclasse TransporteAereo com um atributo adicional para a altitude máxima. 
 Implemente métodos para exibir informações sobre os transportes e calcular a autonomia.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Avan%C3%A7ando%20em%20POO/Ex9.py
+
+---
+
+Ex10: Sistema de Funcionários de Escola
+Crie uma classe Funcionario com atributos privados para nome e salário. 
+Crie uma subclasse Professor com um atributo adicional para a disciplina ensinada e uma subclasse Administrador com um atributo adicional para o departamento. 
+Implemente métodos para calcular o salário anual e para exibir as informações dos funcionários.
+
+- Link no GitHub: 
