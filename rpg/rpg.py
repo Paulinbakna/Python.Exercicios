@@ -350,7 +350,7 @@ if personagem.vida > 0:
     sleep(2)
     loja = Loja()
     while True:
-        loja.mostrar_itens()
+        loja.mostrar_itens(personagem)
         escolha_item = int(input('Digite o número do item que deseja comprar: '))
         if escolha_item == 0:
             break
