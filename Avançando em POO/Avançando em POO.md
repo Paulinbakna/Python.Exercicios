@@ -93,3 +93,9 @@ Implemente métodos para exibir informações sobre os produtos e para calcular 
 
 ---
  
+Ex9: Sistema de Transporte
+Crie uma classe Transporte com atributos privados para tipo e capacidade. 
+Crie uma subclasse TransporteTerrestre com um atributo adicional para o tipo de combustível e uma subclasse TransporteAereo com um atributo adicional para a altitude máxima. 
+Implemente métodos para exibir informações sobre os transportes e calcular a autonomia.
+
+- Link no GitHub:
