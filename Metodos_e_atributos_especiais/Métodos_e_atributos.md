@@ -9,7 +9,7 @@
 
 Ex1= Implemente o método `__str__` para a classe `Carro` para imprimir informações formatadas.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Metodos_e_atributos_especiais/Ex1.py
 
 ---
 
