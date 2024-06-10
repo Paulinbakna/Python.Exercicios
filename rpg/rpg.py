@@ -22,13 +22,14 @@ class Personagem:
 
     def ganhar_xp(self, xp):
         self.xp += xp
-        print(f'{Fore.GREEN}{self.nome} ganhou {xp} XP!\nXP Atual: {self.xp}{Style.RESET_ALL}')
+        print(f'{Fore.GREEN}{self.nome} ganhou {xp} XP! | XP Atual: {self.xp}{Style.RESET_ALL}')
+        print()
         if self.xp >= self.xp_para_proximo_nivel:
             self.subir_de_nivel()
 
     def ganhar_moedas(self, moedas):
         self.moedas += moedas
-        print(f'{Fore.YELLOW}{self.nome} ganhou {moedas} moedas!{Style.RESET_ALL}\nTotal de moedas atual:{Fore.YELLOW} {self.moedas}{Style.RESET_ALL}')
+        print(f'{Fore.YELLOW}{self.nome} ganhou {moedas} moedas!{Style.RESET_ALL} | Total de moedas atual:{Fore.YELLOW} {self.moedas}{Style.RESET_ALL}')
 
     def subir_de_nivel(self):
         self.xp -= self.xp_para_proximo_nivel
@@ -107,12 +108,13 @@ class Inimigo:
             dano = self.ataque - alvo.defesa
             dano = max(dano, 0)
             alvo.vida -= dano
-            print(f'{Fore.RED}{self.nome} atacou {alvo.nome}!{Style.RESET_ALL}\n{Fore.RED}{alvo.nome} recebeu {dano} de dano de {self.nome}{Style.RESET_ALL}')
-            print(f'{Fore.GREEN}Vida Atual: {alvo.vida}{Style.RESET_ALL}')
+            print(f'{Fore.RED}{self.nome} atacou {alvo.nome}!{Style.RESET_ALL}\n{Fore.RED}{alvo.nome} recebeu {dano} de dano de {self.nome}{Style.RESET_ALL} | {Fore.GREEN}Vida Atual: {alvo.vida}{Style.RESET_ALL}')
+            
 
     def sofrer_dano(self, dano):
         self.vida -= dano
-        print(f'{Fore.RED}{self.nome} sofreu {dano} de dano!\nVida Atual: {self.vida}{Style.RESET_ALL}')
+        print(f'{Fore.RED}{self.nome} sofreu {dano} de dano! | Vida Atual: {self.vida}{Style.RESET_ALL}')
+        print()
         if self.vida <= 0:
             return True
         return False
@@ -139,7 +141,7 @@ class Boss:
 
     def sofrer_dano(self, dano):
         self.vida -= dano
-        print(f'{Fore.RED}{self.nome} sofreu {dano} de dano!\nVida Atual: {self.vida}{Style.RESET_ALL}')
+        print(f'{Fore.MAGENTA}{self.nome} {Style.RESET_ALL} sofreu {Fore.RED}{dano} {Style.RESET_ALL}de dano! |  Vida Atual: {self.vida}{Style.RESET_ALL}')
         if self.vida <= 0:
             return True
         return False
@@ -220,11 +222,27 @@ class Loja:
             BotasDeAgilidade()
         ]
 
-    def mostrar_itens(self, personagem: Personagem):
-        print(f'{Fore.MAGENTA}Bem-vindo à loja!{Style.RESET_ALL}\n Você tem {personagem.moedas}{Fore.YELLOW} moedas.{Style.RESET_ALL}')
+    def mostrar_itens(self,personagem: Personagem):
+        # Definindo larguras para alinhamento
+        nome_width = 18
+        custo_width = 10
+        efeito_width = 20
+        print('-'*50)
+        loja_bem_vindo= f'{Fore.MAGENTA}Bem-vindo à loja!{Style.RESET_ALL}'
+        centralizando_loja_bem_vindo=loja_bem_vindo.center(50)
+        print(centralizando_loja_bem_vindo)
+        print('-'*50)
+        print(f'Você tem {Fore.YELLOW}{personagem.moedas} moedas.{Style.RESET_ALL}')
+        print('-'*80)
+        
         for i, item in enumerate(self.itens, 1):
-            print(f'{i}. {item.nome} - Custo: {Fore.YELLOW}{item.custo} moedas{Style.RESET_ALL} - Efeito: {Fore.GREEN}{item.efeito}{Style.RESET_ALL}')
+            nome = item.nome.ljust(nome_width)
+            custo = f'{Fore.YELLOW}{item.custo} moedas{Style.RESET_ALL}'.ljust(custo_width + len(Fore.YELLOW) + len(Style.RESET_ALL))
+            efeito = f'{Fore.GREEN}{item.efeito}{Style.RESET_ALL}'.ljust(efeito_width + len(Fore.GREEN) + len(Style.RESET_ALL))
+            print(f'{i}. {nome} - Custo: {custo} - Efeito: {efeito}')
         print('0. Sair da loja')
+        print('-'*80)
+
             
     def comprar(self, personagem: Personagem, escolha: int):
         if escolha == 0:
@@ -241,12 +259,17 @@ class Arena:
         self.personagem = personagem
 
     def batalha(self, inimigo):
-        print(f'{Fore.GREEN}Você encontrou um {inimigo.nome}! O que deseja fazer?{Style.RESET_ALL}')
+        print(f'{Fore.CYAN}Você encontrou um {inimigo.nome}! O que deseja fazer?{Style.RESET_ALL}')
         while inimigo.vida > 0 and self.personagem.vida > 0:
-            acao = input('Escolha uma ação: [A] Atacar | [B] Fugir: ').upper()
+            print('-'*50)
+            print(f'{Fore.LIGHTGREEN_EX}    [A] Atacar     {Style.RESET_ALL}|{Fore.LIGHTRED_EX}     [B] Fugir {Style.RESET_ALL}')
+            print('-'*50)
+            acao = input(f'{Fore.LIGHTCYAN_EX}=>>{Style.RESET_ALL}').upper()
+            print('-'*50)
             if acao == 'A':
                 dano = self.personagem.ataque
                 if inimigo.sofrer_dano(dano):
+                    print('-'*50)
                     print(f'{Fore.GREEN}{inimigo.nome} foi derrotado!{Style.RESET_ALL}')
                     self.personagem.ganhar_xp(inimigo.xp)
                     self.personagem.ganhar_moedas(inimigo.moedas)
@@ -265,22 +288,23 @@ class Arena:
             
 #pedido ao jogador para criar o seu persongem
 while True:
-    print('=' * 40)
-    print(f'{Fore.BLUE}      -- Bem vindo ao PYTHON RPG -- {Style.RESET_ALL}')
-    print('=' * 40)
-    print('Um mundo onde você irá enfrentar inimigos pelo mundo!')
-    print()
-    sleep(2)
+    print(f'{Fore.BLUE}={Style.RESET_ALL}' * 80)
+    texto_bem_vindo= f'{Fore.LIGHTBLUE_EX}-- Bem vindo ao PYTHON RPG -- {Style.RESET_ALL}'
+    centralizando_texto=texto_bem_vindo.center(80)
+    print(centralizando_texto)
+    print(f'{Fore.BLUE}={Style.RESET_ALL}' * 80)
+    sleep(1)
     nome = str(input('Para começar, crie um nome para o seu personagem: '))
-    print(f'\nCerto {nome}, agora escolha uma classe para seu personagem:')
-    sleep(2)
-    print('=' * 40)
-    print(f'1. Guerreiro: Buffs: {Fore.GREEN}+5 ataque, +5 defesa{Style.RESET_ALL} | Debuffs: {Fore.RED}-3 alcance{Style.RESET_ALL}')
-    print(f'2. Mago: Buffs: {Fore.GREEN}+3 ataque, +4 alcance{Style.RESET_ALL}  | Debuffs: {Fore.RED}-2 defesa{Style.RESET_ALL}')
-    print(f'3. Arqueiro: Buffs: {Fore.GREEN}+3 ataque, +7 alcance{Style.RESET_ALL} | Debuffs: {Fore.RED}-2 defesa{Style.RESET_ALL}')
-    print(f'4. Curandeiro: Buffs: {Fore.GREEN}+5 defesa{Style.RESET_ALL}         | Debuffs: {Fore.RED}-1 alcance, -1 ataque{Style.RESET_ALL}')
-    print('=' * 40)
-    escolha = int(input('Digite o número da classe escolhida\n=>>'))
+    print('-'*80)
+    print(f'Certo {nome}, agora escolha uma classe para seu personagem:')
+    sleep(1)
+    print('=' * 80)
+    print(f'1. Guerreiro:  Buffs: {Fore.GREEN}+5 ataque, +5 defesa{Style.RESET_ALL}      | Debuffs: {Fore.RED}-3 alcance{Style.RESET_ALL}')
+    print(f'2. Mago:       Buffs: {Fore.GREEN}+3 ataque, +4 alcance{Style.RESET_ALL}     | Debuffs: {Fore.RED}-2 defesa{Style.RESET_ALL}')
+    print(f'3. Arqueiro:   Buffs: {Fore.GREEN}+3 ataque, +7 alcance{Style.RESET_ALL}     | Debuffs: {Fore.RED}-2 defesa{Style.RESET_ALL}')
+    print(f'4. Curandeiro: Buffs: {Fore.GREEN}+5 defesa{Style.RESET_ALL}                 | Debuffs: {Fore.RED}-1 alcance, -1 ataque{Style.RESET_ALL}')
+    print('=' * 80)
+    escolha = int(input(f'Digite o número da classe escolhida\n{Fore.LIGHTCYAN_EX}=>>{Style.RESET_ALL}'))
 
     if escolha == 1:
         personagem = Guerreiro(nome)
@@ -293,9 +317,12 @@ while True:
     else:
         print(f'Não consegui identificar a classe selecionada!\nPor favor, digite novamente.')
         continue
-
+    print('-'*80)    
     print(f'Parabéns, você criou um personagem com a classe: {personagem.__class__.__name__} e que se chama: {personagem.nome}')
     break
+print('-'*50)
+print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} está explorando o mundo agora...{Style.RESET_ALL}')
+print('-'*50)
 
 #criando o inimigo
 sleep(2)
@@ -305,26 +332,39 @@ arena.batalha(inimigo)
 
 if personagem.vida > 0:
     sleep(2)
-    print(f'{personagem.nome} voltou a explorar o mundo....')
+    print('-'*50)
+    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')
+    print('-'*50)
     sleep(3)
-    print(f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}')
+    mensagem= f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}'
+    centro= mensagem.center(50)
+    print(centro)
     boss = Boss('Ogro', 25, 300, 500)
     arena.batalha(boss)
 
 if personagem.vida > 0:
     sleep(2)
-    print(f'{personagem.nome} voltou a explorar o mundo....')
+    print('-'*50)
+    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')
     sleep(3)
+    print('-'*50)
     print(f'{Fore.GREEN}Você encontrou uma lojinha!{Style.RESET_ALL}')
-    print('Entrando na loja.....')
+    print('-'*50)
+    print(f'{Fore.LIGHTCYAN_EX}Entrando na loja.....{Style.RESET_ALL}')
     sleep(2)
     loja = Loja()
     while True:
         loja.mostrar_itens(personagem)
         escolha_item = int(input('Digite o número do item que deseja comprar: '))
+        print('-'*50)
         if escolha_item == 0:
+            print('Saindo da Loja.......')
             break
         loja.comprar(personagem, escolha_item)
+
+print('-'*50)
+print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} está explorando o mundo agora...{Style.RESET_ALL}')
+print('-'*50)
 
 sleep(2)
 arena = Arena(personagem)
@@ -333,7 +373,9 @@ arena.batalha(inimigo)
 
 if personagem.vida > 0:
     sleep(2)
-    print(f'{personagem.nome} voltou a explorar o mundo....')
+    print('-'*50)
+    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')
+    print('-'*50)
     sleep(3)
 
 sleep(2)
@@ -343,25 +385,37 @@ arena.batalha(inimigo)
 
 if personagem.vida > 0:
     sleep(2)
-    print(f'{personagem.nome} voltou a explorar o mundo....')
+    print('-'*50)
+    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')
     sleep(3)
+    print('-'*50)
     print(f'{Fore.GREEN}Você encontrou uma lojinha!{Style.RESET_ALL}')
+    print('-'*50)
     print('Entrando na loja.....')
     sleep(2)
     loja = Loja()
     while True:
         loja.mostrar_itens(personagem)
         escolha_item = int(input('Digite o número do item que deseja comprar: '))
+        print('-'*50)
         if escolha_item == 0:
+            print('Saindo da Loja.......')
             break
         loja.comprar(personagem, escolha_item)
 
 
 if personagem.vida > 0:
     sleep(2)
-    print(f'{personagem.nome} voltou a explorar o mundo....')
+    print('-'*50)
+    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')
     sleep(3)
-    print(f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}')
+    mensagem= f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}'
+    centro= mensagem.center(50)
+    print(centro)
     boss = Boss('Malenia', 40, 500, 700)
     arena.batalha(boss)
 
+print('-'*50)
+centro_fim='{Fore.LIGHTMAGENTA_EX} -- FIM DO JOGO -- {Style.RESET_ALL}'
+fim=centro_fim.center(50)
+print(fim)
