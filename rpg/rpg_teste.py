@@ -265,6 +265,7 @@ class Arena:
         self.personagem = personagem
 
     def batalha(self, inimigo):
+        print('-'*50)
         print(f'{Fore.CYAN}Você encontrou um {inimigo.nome}! O que deseja fazer?{Style.RESET_ALL}')
         while inimigo.vida > 0 and self.personagem.vida > 0:
             print('-'*50)
@@ -293,6 +294,7 @@ class Arena:
             print('-- FIM DO JOGO --')
 
 def loja_mundo():
+    personagem.explorar()
     print('-'*50)
     print(f'{Fore.GREEN}Você encontrou uma lojinha!{Style.RESET_ALL}')
     print('-'*50)
@@ -308,55 +310,39 @@ def loja_mundo():
             break
         loja.comprar(personagem, escolha_item)
         print('-'*50)
-def boss_chamar():
+def bosses():
+    bosses = [
+    Boss('Ogro', 25, 300, 200),
+    Boss('Malenia', 24, 500, 250),
+    Boss('Hydra', 30, 600, 300),
+    Boss('Ciclope', 30, 200, 150),
+
+]
+        
     mensagem= f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}'
     centro= mensagem.center(50)
     print(centro)
-    boss1 = Boss('Ogro', 25, 300, 500)
+    boss=random.choice(bosses)
     arena=Arena(personagem)
-    arena.batalha(boss1)
-    sleep(2)
-    
-    personagem.explorar()
-    sleep(3)
-    mensagem= f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}'
-    centro= mensagem.center(50)
-    print(centro)
-    boss = Boss('Malenia', 24, 500, 700)
     arena.batalha(boss)
     sleep(2)
     
-def inimigos():
-    sleep(2)
-    arena = Arena(personagem)
-    inimigo1 = Inimigo('Goblin', 15, 50, 100)
-    arena.batalha(inimigo1)
-    sleep(2)
-    
-    personagem.explorar()
-    lojinha=loja_mundo()
-    
-    personagem.explorar()
-    
-    arena = Arena(personagem)
-    inimigo2 = Inimigo('Lobo', 20, 75, 125)
-    arena.batalha(inimigo2)
-    sleep(2)
-    
-    personagem.explorar()
-    sleep(2)
-    
-    arena = Arena(personagem)
-    inimigo3 = Inimigo('Porco', 20, 75, 125)
-    arena.batalha(inimigo3)
-    sleep(2)
-    
-    personagem.explorar()
-    sleep(2)
-    
 
+def inimigos():
+    inimigos = [
+    Inimigo('Goblin', 8, 20, 10),
+    Inimigo('Troll', 12, 40, 20),
+    Inimigo('Lobo', 15, 50, 25),
+    Inimigo('Dragão', 30, 200, 70),
+    Inimigo('Esqueleto', 20, 75, 35),
+    Inimigo('Goblin atirador', 15, 50, 25),
+    Inimigo('Batedor de Argila', 35, 250, 100)
+]
+    inimigo=random.choice(inimigos)
+    sleep(2) 
+    arena=Arena(personagem)
+    arena.batalha(inimigo)
     
-            
 #pedido ao jogador para criar o seu persongem
 while True:
     print(f'{Fore.BLUE}={Style.RESET_ALL}' * 80)
@@ -395,14 +381,14 @@ print('-'*50)
 print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} está explorando o mundo agora...{Style.RESET_ALL}')
 print('-'*50)
 
-chamar_inmigos=inimigos()
-chamar_bosses=boss_chamar()
-inimigos_mundo=[chamar_inmigos,chamar_bosses]
+
 while True:
     if personagem.vida > 0:
-        for inimigo in inimigos_mundo:
-            random.choice(inimigo)
-
+        ini=inimigos()
+        loja=loja_mundo()
+        boss=bosses()
+        random.choice(ini,loja,boss)
+        
     elif personagem.vida <=0:
         print('-'*50)
         centro_fim='{Fore.LIGHTMAGENTA_EX} -- FIM DO JOGO -- {Style.RESET_ALL}'
