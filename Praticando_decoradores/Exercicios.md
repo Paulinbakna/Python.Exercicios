@@ -14,3 +14,26 @@ Descrição: Modifique o decorador meu_decorador para que ele possa decorar fun�
 
 Descrição: Crie um decorador chamado tempo_execucao que mede e imprime o tempo que uma função leva para executar.
 
+---
+
+-- Exercício 4: Decorador para verificar tipo
+
+Descrição: Crie um decorador chamado verifica_tipo que verifica se os argumentos passados para uma função são do tipo especificado. Se não forem, imprima uma mensagem de erro.
+
+---
+
+-- Exercício 5: Decorador com argumentos de decorador
+
+Descrição: Crie um decorador chamado repete que aceita um argumento indicando quantas vezes a função decorada deve ser executada.
+
+---
+
+-- Exercício 6: Decorador de autenticação
+
+Descrição: Crie um decorador chamado requer_autenticacao que verifica se o usuário está autenticado antes de permitir a execução de uma função. Se o usuário não estiver autenticado, imprima uma mensagem de erro.
+
+---
+
+-- Exercício 7: Decorador de memoização
+
+Descrição: Crie um decorador chamado memoiza que armazena os resultados de chamadas anteriores a uma função (com base nos seus argumentos) e retorna o resultado armazenado quando a mesma entrada ocorre novamente, para otimizar a performance.
