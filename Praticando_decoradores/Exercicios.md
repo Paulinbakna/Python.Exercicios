@@ -49,3 +49,7 @@ Descrição: Crie um decorador chamado decorador_com_retorno que multiplica o va
 -- Exercício 9: Decorador para Contar Execuções
 
 Crie um decorador chamado contador_execucoes que conta quantas vezes uma função foi chamada e imprime esse número cada vez que a função é executada.
+
+--- 
+
+-- 
