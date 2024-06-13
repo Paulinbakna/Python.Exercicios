@@ -37,3 +37,15 @@ Descrição: Crie um decorador chamado requer_autenticacao que verifica se o usu
 -- Exercício 7: Decorador de memoização
 
 Descrição: Crie um decorador chamado memoiza que armazena os resultados de chamadas anteriores a uma função (com base nos seus argumentos) e retorna o resultado armazenado quando a mesma entrada ocorre novamente, para otimizar a performance.
+
+---
+
+-- Exercício 8: Decorador com Valor de Retorno
+
+Descrição: Crie um decorador chamado decorador_com_retorno que multiplica o valor de retorno da função por 2.
+
+---
+
+-- Exercício 9: Decorador para Contar Execuções
+
+Crie um decorador chamado contador_execucoes que conta quantas vezes uma função foi chamada e imprime esse número cada vez que a função é executada.
