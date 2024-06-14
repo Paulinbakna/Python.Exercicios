@@ -1,0 +1,2 @@
+Ex5: Implementar propriedades para leitura e escrita de atributos na classe Carro
+Crie propriedades para os atributos marca, modelo e ano da classe Carro, garantindo encapsulamento e validação. Por exemplo, o ano deve ser um valor positivo e a marca e o modelo não podem ser strings vazias.
