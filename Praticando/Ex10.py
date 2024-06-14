@@ -4,7 +4,7 @@ class Carro:
         self.__modelo=modelo
         self.__ano=ano
         self.__cor=cor
-    #Ajusta para os parametros sejam mostrados corretamente 
+    #Ajusta para que os parametros sejam mostrados corretamente 
     def __repr__(self):
         return f'Carro(marca= {self.__marca}\n,Modelo= {self.__modelo}\n,Ano= {self.__ano}\n,Cor= {self.__cor})'
     
