@@ -3,10 +3,7 @@ class Carro:
         self.marca=marca
         self.modelo=modelo
         self.ano=ano
-
-    def __repr__(self):
-        return f'Carro(marca={self.marca},modelo={self.modelo},ano={self.ano})'
-    
+        
     def __str__(self):
         return f'Marca: {self.marca}\nModelo: {self.modelo}\nAno: {self.ano}'
     
