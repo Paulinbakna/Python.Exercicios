@@ -15,6 +15,6 @@ Ex1= Implemente o método `__str__` para a classe `Carro` para imprimir informa�
 
 Ex2= Crie propriedades para os atributos da classe `Carro`, garantindo encapsulamento e validação.
 
-- Link no GitHub:
+- Link no GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Metodos_e_atributos_especiais/EX2.py
 
 ---
