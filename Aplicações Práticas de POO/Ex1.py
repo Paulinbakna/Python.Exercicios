@@ -17,6 +17,7 @@ class Cliente:
 class Pedido:
     def __init__(self, cliente):
         self.cliente = cliente
+        self.pagamento=0
         self.itens = []
     
     def adicionar_itens(self, item):
@@ -31,7 +32,16 @@ class Pedido:
     def mostrar_itens(self):
         for item in self.itens:
             print(f'Nome: {item.nome} | Preço R$ {item.preco}')
-    
+    def pagar(self):
+        total=self.calcular_total()
+        valor=self.pagamento
+        
+        if total < valor:
+            conta=valor- total
+            print(f'O cliente pagou a conta de R${self.calcular_total()} e ficou com R$ {conta} de troco')
+        else:
+            print(f'O Cliente não possui dinheiro suficiente para pagar a conta.')
+            
     def __str__(self):
         itens_pedido = '\n'.join(str(item) for item in self.itens)
         total = self.calcular_total()
@@ -81,6 +91,10 @@ while True:
     except ValueError:
         print('Entrada inválida, por favor insira um número ou "sair".')
 
-# Show final order
-print('\nPedido final:')
-print(pedido)
+    # Show final order
+    print('\nPedido final:')
+    print(pedido)
+    carteira=input('Certo agora insira o valor que deseja pagar:\n-->> ')
+    pedido.pagamento=carteira
+    pedido.pagar()
+    
