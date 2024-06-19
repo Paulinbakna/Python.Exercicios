@@ -36,7 +36,7 @@ class Pedido:
         total=self.calcular_total()
         valor=self.pagamento
         
-        if total < valor:
+        if total <= valor:
             conta=valor- total
             print(f'O cliente pagou a conta de R${self.calcular_total()} e ficou com R$ {conta} de troco')
         else:
