@@ -1,3 +1,5 @@
+from colorama import Fore, Style
+from time import sleep
 class Item:
     def __init__(self, nome, preco):
         self.nome = nome
@@ -12,7 +14,7 @@ class Cliente:
         self.contato = contato
     
     def __str__(self):
-        return f'Nome do Cliente: {self.nome}\nContato: {self.contato}'
+        return f'Nome do Cliente: {self.nome}\nEmail para Contato: {self.contato}'
 
 class Pedido:
     def __init__(self, cliente):
@@ -31,33 +33,35 @@ class Pedido:
     
     def mostrar_itens(self):
         for item in self.itens:
-            print(f'Nome: {item.nome} | Preço R$ {item.preco}')
+            print(f'{Fore.BLUE}Nome:{Style.RESET_ALL} {item.nome} | {Fore.LIGHTYELLOW_EX}Preço R$ {item.preco}')
     def pagar(self):
         total=self.calcular_total()
         valor=self.pagamento
         
         if total <= valor:
             conta=valor- total
-            print(f'O cliente pagou a conta de R${self.calcular_total()} e ficou com R$ {conta} de troco')
+            print(f'O cliente pagou a conta de R${self.calcular_total():.2f} e ficou com R$ {conta:.2f} de troco')
         else:
             print(f'O Cliente não possui dinheiro suficiente para pagar a conta.')
             
     def __str__(self):
         itens_pedido = '\n'.join(str(item) for item in self.itens)
         total = self.calcular_total()
-        return f'{self.cliente}\nItens do Pedido: \n{itens_pedido}\nTotal: R${total:.2f}'
+        return f'{self.cliente}\nItens do Pedido: \n{itens_pedido}\n{Fore.LIGHTYELLOW_EX}Total: R${total:.2f}{Style.RESET_ALL}'
 
 
 print('-'*40)
-mensagem='-- RESTAURANTE SIRI CASCUDO --'
-mensagem.center(40)
-print(mensagem)
+mensagem=f'{Fore.LIGHTRED_EX}-- RESTAURANTE SIRI CASCUDO --{Style.RESET_ALL}'
+print(mensagem.center(40))
 print('-'*40)
+sleep(2)
 print('Olá! Bem-vindo ao Siri Cascudo!')
 
 # Get customer details
-nome = input('Antes de entrar, por favor insira seu nome:\n-->> ')
-contato = input('Certo, agora insira um email para contato:\n-->> ')
+nome = input(f'Antes de entrar, por favor insira seu nome:\n{Fore.LIGHTGREEN_EX}-->> {Style.RESET_ALL}')
+print('-'*40)
+contato = input(f'Certo, {nome} agora insira um email para contato:\n{Fore.LIGHTGREEN_EX}-->>{Style.RESET_ALL} ')
+print('-'*40)
 cliente = Cliente(nome, contato)
 pedido = Pedido(cliente)
 
@@ -71,30 +75,54 @@ items = [
 ]
 
 # Main loop for ordering
+print(f'Olá {nome} como você está?')
+sleep(2)
+print(f'{Fore.MAGENTA}Aqui está o cardápio do restaurante: {Style.RESET_ALL}')
 while True:
-    print('\nAqui está o cardápio do restaurante:')
-    for i, item in enumerate(items, start=1):
-        print(f'{i}. {item}')
+    while True:
+        print('-'*40)
+        for i, item in enumerate(items, start=1):
+            print(f'{i}. {item}')
+        print('-'*40)
 
-    escolha = input('Digite o número do item que deseja pedir ou "sair" para finalizar:\n-->> ')
+        escolha = input(f'Digite o número do item que deseja pedir ou "sair" para finalizar o pedido:\n{Fore.LIGHTGREEN_EX}-->>{Style.RESET_ALL} ')
 
-    if escolha.lower() == 'sair':
+        if escolha.lower() == 'sair':
+            break
+            
+        try:
+            escolha_num = int(escolha)
+            if 1 <= escolha_num <= len(items):
+                pedido.adicionar_itens(items[escolha_num - 1])
+                print('-'*40)
+                print(f'Item {Fore.LIGHTBLUE_EX} "{items[escolha_num - 1].nome}" {Style.RESET_ALL}adicionado ao pedido.')
+                sleep(2)    
+            else:
+                print(f'{Fore.LIGHTRED_EX}Escolha inválida, por favor tente novamente.{Style.RESET_ALL}')
+        except ValueError:
+            print(f'{Fore.LIGHTRED_EX}Entrada inválida, por favor insira um número ou "sair".{Style.RESET_ALL}')
+    while True:
+        try:
+            sleep(2)    
+            print('-'*40)
+            print('\nPedido final:')
+            print(pedido)
+            print('-'*40)
+            sleep(2)    
+            carteira=float(input(f'Certo agora insira o valor que deseja pagar:\n{Fore.LIGHTGREEN_EX}-->> {Style.RESET_ALL}'))
+            pedido.pagamento=carteira
+            print('-'*40)
+            pedido.pagar()
+            break
+        except ValueError:
+            print(f'{Fore.LIGHTRED_EX}Entrada inválida, por favor insira um valor numérico.{Style.RESET_ALL}')
+                
+    sleep(2)    
+    print('-'*40)
+    continuar=input(f'Quer continuar? [S/N]\n{Fore.LIGHTGREEN_EX}-->>{Style.RESET_ALL}').strip()[0]
+    sleep(2)    
+    if continuar in 'Nn':
         break
 
-    try:
-        escolha_num = int(escolha)
-        if 1 <= escolha_num <= len(items):
-            pedido.adicionar_itens(items[escolha_num - 1])
-            print(f'Item "{items[escolha_num - 1].nome}" adicionado ao pedido.')
-        else:
-            print('Escolha inválida, por favor tente novamente.')
-    except ValueError:
-        print('Entrada inválida, por favor insira um número ou "sair".')
-
-    # Show final order
-    print('\nPedido final:')
-    print(pedido)
-    carteira=input('Certo agora insira o valor que deseja pagar:\n-->> ')
-    pedido.pagamento=carteira
-    pedido.pagar()
-    
+print('-'*40)
+print(f'{Fore.LIGHTBLUE_EX}Até mais {nome} e volte sempre,Tenha um Bom Dia!{Style.RESET_ALL}')
