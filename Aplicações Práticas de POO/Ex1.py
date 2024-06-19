@@ -6,7 +6,7 @@ class Item:
         self.preco = preco
     
     def __str__(self):
-        return f'Nome: {self.nome}   |  Preço R$: {self.preco}'
+        return f'{Fore.LIGHTMAGENTA_EX}Nome:{Style.RESET_ALL} {self.nome} |  {Fore.LIGHTYELLOW_EX}Preço R$:{Style.RESET_ALL} {self.preco}'
 
 class Cliente:
     def __init__(self, nome, contato):
@@ -14,7 +14,7 @@ class Cliente:
         self.contato = contato
     
     def __str__(self):
-        return f'Nome do Cliente: {self.nome}\nEmail para Contato: {self.contato}'
+        return f'{Fore.BLUE}Nome do Cliente:{Style.RESET_ALL} {self.nome}\n{Fore.BLUE}Email para Contato:{Style.RESET_ALL} {self.contato}'
 
 class Pedido:
     def __init__(self, cliente):
@@ -50,10 +50,10 @@ class Pedido:
         return f'{self.cliente}\nItens do Pedido: \n{itens_pedido}\n{Fore.LIGHTYELLOW_EX}Total: R${total:.2f}{Style.RESET_ALL}'
 
 
-print('-'*40)
+print(f'{Fore.LIGHTRED_EX}-{Style.RESET_ALL}'*40)
 mensagem=f'{Fore.LIGHTRED_EX}-- RESTAURANTE SIRI CASCUDO --{Style.RESET_ALL}'
 print(mensagem.center(40))
-print('-'*40)
+print(f'{Fore.LIGHTRED_EX}-{Style.RESET_ALL}'*40)
 sleep(2)
 print('Olá! Bem-vindo ao Siri Cascudo!')
 
@@ -125,4 +125,4 @@ while True:
         break
 
 print('-'*40)
-print(f'{Fore.LIGHTBLUE_EX}Até mais {nome} e volte sempre,Tenha um Bom Dia!{Style.RESET_ALL}')
+print(f'{Fore.LIGHTBLUE_EX}Até mais {nome} e volte sempre!{Style.RESET_ALL}')
