@@ -16,12 +16,22 @@ Ex1= Desenvolva um sistema de gerenciamento de pedidos em um restaurante com cla
 
 ---
 
+- Link Do GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Aplica%C3%A7%C3%B5es%20Pr%C3%A1ticas%20de%20POO/Ex1.py
+
+---
+
 Ex2= Crie um sistema de gerenciamento de estoque com classes `Produto`, `Estoque` e `Fornecedor`.
 
 **Descrição:**
 - A classe `Produto` deve representar um produto com atributos como nome, código e quantidade.
+
 - A classe `Estoque` deve gerenciar uma lista de produtos e permitir adicionar, remover e atualizar produtos.
+
 - A classe `Fornecedor` deve armazenar informações sobre o fornecedor, como nome e contato, e associar produtos fornecidos.
+
+---
+
+- Link Do GitHub:
 
 ---
 
@@ -34,8 +44,6 @@ Ex3= Desenvolva um sistema de registro de presença em uma escola com classes `A
 
 ---
 
-### Links no GitHub
+- Link Do GitHub:
 
-- [Projeto 1: Sistema de Gerenciamento de Pedidos em Restaurante](#)
-- [Projeto 2: Sistema de Gerenciamento de Estoque](#)
-- [Projeto 3: Sistema de Registro de Presença em Escola](#)
+---

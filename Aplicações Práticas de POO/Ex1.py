@@ -74,7 +74,7 @@ items = [
     Item('Peixe Grelhado', 9.99)
 ]
 
-# Main loop for ordering
+ # Main loop for ordering
 print(f'Olá {nome} como você está?')
 sleep(2)
 print(f'{Fore.MAGENTA}Aqui está o cardápio do restaurante: {Style.RESET_ALL}')
