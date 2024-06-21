@@ -31,7 +31,7 @@ Ex2= Crie um sistema de gerenciamento de estoque com classes `Produto`, `Estoque
 
 ---
 
-- Link Do GitHub:
+- Link Do GitHub: https://github.com/Paulinbakna/Python.Exercicios/blob/main/Aplica%C3%A7%C3%B5es%20Pr%C3%A1ticas%20de%20POO/Ex2.py
 
 ---
 

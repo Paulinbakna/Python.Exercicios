@@ -1,0 +1,76 @@
+from datetime import datetime
+
+class Aluno:
+    def __init__(self, nome, matricula):
+        self.nome = nome
+        self.matricula = matricula
+
+    def __str__(self):
+        return f'{self.nome} (Matrícula: {self.matricula})'
+
+class Turma:
+    def __init__(self, disciplina):
+        self.disciplina = disciplina
+        self.alunos = []
+
+    def adicionar_aluno(self, aluno):
+        self.alunos.append(aluno)
+        print(f'Aluno {aluno.nome} adicionado à turma de {self.disciplina}')
+
+    def remover_aluno(self, matricula):
+        for aluno in self.alunos:
+            if aluno.matricula == matricula:
+                self.alunos.remove(aluno)
+                print(f'Aluno {aluno.nome} removido da turma de {self.disciplina}')
+                return
+        print(f'Aluno com matrícula {matricula} não encontrado na turma de {self.disciplina}')
+
+    def listar_alunos(self):
+        return '\n'.join(str(aluno) for aluno in self.alunos)
+
+class RegistroPresenca:
+    def __init__(self):
+        self.registros = {}
+
+    def registrar_presenca(self, turma, data=None):
+        if data is None:
+            data = datetime.now().strftime('%Y-%m-%d')
+        if turma not in self.registros:
+            self.registros[turma] = {}
+        self.registros[turma][data] = [aluno.matricula for aluno in turma.alunos]
+        print(f'Presença registrada para a turma de {turma.disciplina} na data {data}')
+
+    def exibir_registro(self, turma, data):
+        if turma in self.registros and data in self.registros[turma]:
+            return f'Registro de presença para a turma de {turma.disciplina} na data {data}:\n' + \
+                   '\n'.join(str(aluno) for aluno in turma.alunos if aluno.matricula in self.registros[turma][data])
+        return f'Nenhum registro de presença encontrado para a turma de {turma.disciplina} na data {data}'
+
+# Exemplo de uso
+aluno1 = Aluno('João Silva', '202201')
+aluno2 = Aluno('Maria Oliveira', '202202')
+aluno3 = Aluno('Carlos Pereira', '202203')
+
+turma1 = Turma('Matemática')
+turma1.adicionar_aluno(aluno1)
+turma1.adicionar_aluno(aluno2)
+
+turma2 = Turma('História')
+turma2.adicionar_aluno(aluno3)
+
+registro = RegistroPresenca()
+registro.registrar_presenca(turma1, '2024-06-21')
+registro.registrar_presenca(turma2, '2024-06-21')
+
+print(registro.exibir_registro(turma1, '2024-06-21'))
+print(registro.exibir_registro(turma2, '2024-06-21'))
+
+# Adicionando mais alunos e registrando presença
+turma1.adicionar_aluno(aluno3)
+registro.registrar_presenca(turma1, '2024-06-22')
+print(registro.exibir_registro(turma1, '2024-06-22'))
+
+# Removendo um aluno e atualizando a presença
+turma1.remover_aluno('202201')
+registro.registrar_presenca(turma1, '2024-06-23')
+print(registro.exibir_registro(turma1, '2024-06-23'))
