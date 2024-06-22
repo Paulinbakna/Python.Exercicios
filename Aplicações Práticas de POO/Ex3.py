@@ -74,6 +74,7 @@ while True:
         print('-'*40)
         
         escolha=input('Digite o numero do aluno:\n-->>')
+        
         print('Certo o que deseja fazer agora?')
         print('[ 1 ] Adicionar a uma turma')    
         print('[ 2 ] Remover de uma turma')    
@@ -81,9 +82,14 @@ while True:
         print('[ 4 ] Exibir Registro')
         n=input('-->>')
         if n == '1':
-            escolha_num = int(escolha)
-            if 1 <= escolha_num <= len(alunos):
-                alunos.adicionar(alunos[escolha_num - 1])
-                print('-'*40)    
-        
-                
+            print(f'Para qual turma você deseja mandar o aluno: ')
+            print('[ 1 ] Matematica')
+            print('[ 2 ] História')
+            print('[ 1 ] Portugues')
+            print('[ 1 ] Ingles')
+            print('[ 1 ] Biologia')
+            resp=input('-->>')
+            if resp == 1 :
+                escolha_num=int(escolha)
+                if 1 <= escolha_num <= len(turmas):
+                    
