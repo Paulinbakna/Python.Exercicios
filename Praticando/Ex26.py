@@ -9,11 +9,11 @@ class Jogo:
     def tentar_adivinhar(self,palpite):
         self.tentativas+=1
         if palpite < self.numero_secreto:
-            print('Tente um numero maior')
+            return'Tente um numero maior...'
         elif palpite > self.numero_secreto:
-            print('Tente um numero menor')
+            return 'Tente um numero menor...'
         else:
-            print('Parabêns! Você acertou o numero!')
+            return 'Parabêns você acertou o numero secreto!'
     
     def reiniciar_jogo(self):
         self.numero_secreto=random.randint(self.min_num,self.max_num)
@@ -26,4 +26,32 @@ class Jogador:
     
     def incrementar_pontuacao(self):
         self.pontuacao+=1
+        
+    
+
+nome=input('Digite o seu nome:')
+jogador=Jogador(nome)
+jogo=Jogo(1,100)
+print('-'*40)
+print(f'Certo {nome} agora tente adivinhar o numero...')
+while True:
+    try:
+        palpite=int(input('-->'))
+        resultado=jogo.tentar_adivinhar(palpite)
+        print(resultado)
+        
+        if palpite == jogo.numero_secreto:
+            print('-'*40)
+            jogador.incrementar_pontuacao()
+            print(f'Pontuação do jogador: {jogador.pontuacao}')
+            print('-'*40)
+            resp=input('Quer Continuar o jogo?[S/N]:').lower()
+            if resp == 's':
+                print('Iniciando o jogo...')
+                jogo.reiniciar_jogo()
+            else:
+                print(f'Obrigado por jogar!\nEncerrando o programa....')
+                break
+    except ValueError :
+        print('Digite um numero valido!')
         
