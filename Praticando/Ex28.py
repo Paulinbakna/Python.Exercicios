@@ -96,6 +96,6 @@ while True:
                 print(f'Quarto não encontrado nos quartos reservados')
     print(cliente)
     quarto.mostrar_reservados()
-    resp=input('Gostaria de reservar mais algum quarto?=[S/N]')
+    resp=input('Gostaria de reservar mais algum quarto?[S/N]')
     if resp.lower() == 'n':
         break
