@@ -21,6 +21,12 @@ Ex2= Crie um script que escreva as informações de um dicionário em um arquivo
 
 ---
 
+Ex3: Crie um programa que leia um arquivo CSV e calcule a média dos valores em uma coluna específica.
+
+- Link no GitHub:
+
+---
+
 **Semana 2: Tratamento de Erros**
 
 - Exceções (`try`, `except`, `finally`)

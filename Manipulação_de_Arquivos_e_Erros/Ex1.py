@@ -1,6 +1,12 @@
 Nomes_pessoas=['Joca','Maria','Claudia','Ana','Marcos']
 
+#================ EX1 ==================================================================
+with open('EX1.json','r+') as ex1:
+    for v,valor in enumerate(ex1):
+        print(v+1,valor)
 
+
+#================ ANOTAÇÕES IMPORTAMTES ================================================
 #'w' -> Usado somente para escrever algo(Porem exclui toda vez que algo for mudado)
 with open('Nomes_pessoas.txt','w') as arquivo:
     for valor in Nomes_pessoas:
