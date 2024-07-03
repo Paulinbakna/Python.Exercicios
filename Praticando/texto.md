@@ -1,19 +1,44 @@
-# Ex4: Atualizar um valor específico em um arquivo JSON
-
 import json
 
-def atualizar_json(caminho_arquivo, chave, novo_valor):
-    with open(caminho_arquivo, 'r', encoding='utf-8') as arquivo:
-        dados = json.load(arquivo)
+def mesclar_arquivos(caminho1, caminho2, caminho_arquivo_saida):
+    with open(caminho1, 'r', encoding='utf-8') as arquivo:
+        dados1 = json.load(arquivo)
     
-    dados[chave] = novo_valor
+    with open(caminho2, 'r', encoding='utf-8') as arquivo:
+        dados2 = json.load(arquivo)
+    
+    dados_mesclados = {**dados1, **dados2}
+    
+    with open(caminho_arquivo_saida, 'w', encoding='utf-8') as arquivo:
+        json.dump(dados_mesclados, arquivo, ensure_ascii=False, indent=4)
 
-    with open(caminho_arquivo, 'w', encoding='utf-8') as arquivo:
-        json.dump(dados, arquivo, ensure_ascii=False, indent=4)
+dados_exemplo1 = {
+    "nome": "João",
+    "idade": 35,
+    "cidade": "São Paulo"
+}
 
-# Exemplo de uso
-caminho_arquivo = 'caminho/para/o/arquivo.json'
-chave = 'idade'
-novo_valor = 31
-atualizar_json(caminho_arquivo, chave, novo_valor)
-print(f'O valor da chave {chave} foi atualizado para {novo_valor} no arquivo {caminho_arquivo}')
+dados_exemplo2 = {
+    "habilidades": ["Python", "CSS", "HTML", "JavaScript", "C++"],
+    "experiencia": "5 anos"
+}
+
+caminho1 = r'C:\Users\Paulin\Documents\GitHub\Python.Exercicios\Praticando\caminho1.json'
+caminho2 = r'C:\Users\Paulin\Documents\GitHub\Python.Exercicios\Praticando\caminho2.json'
+
+with open(caminho1, 'w', encoding='utf-8') as arquivo:
+    json.dump(dados_exemplo1, arquivo, ensure_ascii=False, indent=4)
+
+with open(caminho2, 'w', encoding='utf-8') as arquivo:
+    json.dump(dados_exemplo2, arquivo, ensure_ascii=False, indent=4)
+
+caminho_arquivo_saida = r'C:\Users\Paulin\Documents\GitHub\Python.Exercicios\Praticando\arquivo_teste.json'
+mesclar_arquivos(caminho1, caminho2, caminho_arquivo_saida)
+
+print(f'Os arquivos {caminho1} e {caminho2} foram mesclados.')
+
+# Lendo e imprimindo o conteúdo do arquivo mesclado
+with open(caminho_arquivo_saida, 'r', encoding='utf-8') as arquivo:
+    dados_mesclados = json.load(arquivo)
+    print('Conteúdo do arquivo JSON mesclado:')
+    print(json.dumps(dados_mesclados, ensure_ascii=False, indent=4))
