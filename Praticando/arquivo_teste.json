@@ -1,13 +1,12 @@
 {
     "nome": "João",
-    "idade": 35,
+    "idade": 25,
     "cidade": "São Paulo",
-    "habiblidades": [
+    "habilidades": [
         "Python",
-        "CSS",
-        "HTML",
-        "JavaScript",
-        "C++"
+        "Css",
+        "C++",
+        "JavaScript"
     ],
-    "experiencia": "5 anos"
+    "experiencia": "Pleno"
 }
