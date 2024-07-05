@@ -1,0 +1,12 @@
+{
+    "nome": "Carlos",
+    "idade": 25,
+    "cidade": "Rio de Janeiro",
+    "habilidades": [
+        "Java",
+        "Css",
+        "C++",
+        "JavaScript"
+    ],
+    "experiencia": "10 anos"
+}
