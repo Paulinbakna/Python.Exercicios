@@ -7,7 +7,7 @@ try:
             
         dados[chave]=valor
         
-        with open(caminho,'r',encoding='utf-8') as arquivo:
+        with open(caminho,'w',encoding='utf-8') as arquivo:
             json.dump(dados,arquivo,ensure_ascii=False,indent=4)
 
 
@@ -36,5 +36,5 @@ except:
     print('Erro Inesperado!')
 
 finally:
-    print('-->> O Codigo não apresentou nenhum Error! <<--')
+    print('-->> Fim Do Codigo! <<--')
       
