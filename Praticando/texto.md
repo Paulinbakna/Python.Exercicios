@@ -1,44 +1,27 @@
-import json
-
-def mesclar_arquivos(caminho1, caminho2, caminho_arquivo_saida):
-    with open(caminho1, 'r', encoding='utf-8') as arquivo:
-        dados1 = json.load(arquivo)
+def main():
+    input_file = 'dados.csv'
+    output_file = 'resultados.csv'
     
-    with open(caminho2, 'r', encoding='utf-8') as arquivo:
-        dados2 = json.load(arquivo)
+    # Passo 1: Ler dados do arquivo CSV
+    header, data = leitor_csv(input_file)
     
-    dados_mesclados = {**dados1, **dados2}
+    if not data:
+        print("Nenhum dado foi lido do arquivo.")
+        return
     
-    with open(caminho_arquivo_saida, 'w', encoding='utf-8') as arquivo:
-        json.dump(dados_mesclados, arquivo, ensure_ascii=False, indent=4)
+    # Adicionando uma nova coluna para a média
+    column_index = 1  # Índice da coluna que queremos analisar
+    average = media_dos_valores(data, column_index)
+    
+    if average is not None:
+        header.append('Média')
+        for row in data:
+            row.append(average)
+    
+    # Passo 3: Escrever resultados no novo arquivo CSV
+    novo_arquivo(output_file, header, data)
+    
+    print(f"Resultados foram escritos em {output_file}")
 
-dados_exemplo1 = {
-    "nome": "João",
-    "idade": 35,
-    "cidade": "São Paulo"
-}
-
-dados_exemplo2 = {
-    "habilidades": ["Python", "CSS", "HTML", "JavaScript", "C++"],
-    "experiencia": "5 anos"
-}
-
-caminho1 = r'C:\Users\Paulin\Documents\GitHub\Python.Exercicios\Praticando\caminho1.json'
-caminho2 = r'C:\Users\Paulin\Documents\GitHub\Python.Exercicios\Praticando\caminho2.json'
-
-with open(caminho1, 'w', encoding='utf-8') as arquivo:
-    json.dump(dados_exemplo1, arquivo, ensure_ascii=False, indent=4)
-
-with open(caminho2, 'w', encoding='utf-8') as arquivo:
-    json.dump(dados_exemplo2, arquivo, ensure_ascii=False, indent=4)
-
-caminho_arquivo_saida = r'C:\Users\Paulin\Documents\GitHub\Python.Exercicios\Praticando\arquivo_teste.json'
-mesclar_arquivos(caminho1, caminho2, caminho_arquivo_saida)
-
-print(f'Os arquivos {caminho1} e {caminho2} foram mesclados.')
-
-# Lendo e imprimindo o conteúdo do arquivo mesclado
-with open(caminho_arquivo_saida, 'r', encoding='utf-8') as arquivo:
-    dados_mesclados = json.load(arquivo)
-    print('Conteúdo do arquivo JSON mesclado:')
-    print(json.dumps(dados_mesclados, ensure_ascii=False, indent=4))
+if __name__ == "__main__":
+    main()
