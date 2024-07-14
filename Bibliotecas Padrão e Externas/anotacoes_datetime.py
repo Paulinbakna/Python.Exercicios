@@ -45,3 +45,30 @@ data_compra=datetime.strptime(data_compra,'%d/%m/%Y')
 
 #tranformar datas em formato brasileiro, o strftime tranforma data em texto
 data_compra.strftime('%d/%m/%Y')
+
+
+from datetime import datetime
+
+# Data e hora atuais
+hoje = datetime.now()
+
+# Formatação das datas
+hoje_brasileiro = hoje.strftime('%d/%m/%Y')
+hoje_hora = hoje.strftime('%H:%M:%S')
+
+# Data de aniversário
+data_aniversario = datetime(year=2004, month=6, day=22)
+
+# Cálculo do próximo aniversário
+proximo_aniversario = data_aniversario.replace(year=hoje.year)
+if proximo_aniversario < hoje:
+    proximo_aniversario = proximo_aniversario.replace(year=hoje.year + 1)
+
+# Dias restantes para o próximo aniversário
+dias_para_aniversario = (proximo_aniversario - hoje).days
+
+# Exibição dos resultados
+print(f'Data de Hoje: {hoje_brasileiro}')
+print(f'Hora Atual: {hoje_hora}')
+print(f'Data Aniversario: {data_aniversario.strftime("%d/%m/%Y")}')
+print(f'Dias Para o Proximo Aniversario: {dias_para_aniversario}')
