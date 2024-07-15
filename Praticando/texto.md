@@ -1,11 +1,11 @@
-2. Manipulando datas:
+3. Trabalhando com horários:
 
-Crie uma variável que represente a data de hoje.
+Crie uma variável que represente a hora atual.
 
-Adicione 10 dias à variável e imprima a nova data.
+Adicione 30 minutos à variável e imprima a nova hora.
 
-Subtraia 5 dias da variável e imprima a nova data.
+Subtraia 1 hora da variável e imprima a nova hora.
 
-Verifique se a data de hoje é anterior à data 01/01/2000.
+Verifique se a hora atual é posterior à hora 18:00.
 
-Calcule a diferença em dias entre a data de hoje e a data 01/01/2024.
+Calcule a diferença em segundos entre a hora atual e a hora 09:00:00.
