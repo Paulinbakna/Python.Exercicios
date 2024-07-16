@@ -1,11 +1,7 @@
-3. Trabalhando com horários:
+4. Formatando datas e horários:
 
-Crie uma variável que represente a hora atual.
+Formate a data de hoje no formato dd de MMMM de yyyy.
 
-Adicione 30 minutos à variável e imprima a nova hora.
+Formate a hora atual no formato hh:mm:ss (12 horas) com AM/PM.
 
-Subtraia 1 hora da variável e imprima a nova hora.
-
-Verifique se a hora atual é posterior à hora 18:00.
-
-Calcule a diferença em segundos entre a hora atual e a hora 09:00:00.
+Crie uma string que represente a data e hora atuais no formato completo (ano, mês, dia, hora, minuto, segundo, fuso horário).
