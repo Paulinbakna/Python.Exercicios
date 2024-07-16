@@ -1,14 +1,11 @@
 from datetime import datetime
-import pytz
-
-# Obtendo o horário UTC atual
-utc_now = datetime.now(pytz.utc)
+from zoneinfo import ZoneInfo
 
 # Definindo a timezone desejada (por exemplo, America/Sao_Paulo)
-timezone = pytz.timezone('America/Sao_Paulo')
+timezone = ZoneInfo('America/Sao_Paulo')
 
-# Convertendo o horário UTC para o horário local
-local_now = utc_now.astimezone(timezone)
+# Obtendo o horário local na timezone definida
+local_now = datetime.now(timezone)
 
 # Exibindo as informações
 print(f"Fuso horário: {timezone}")
