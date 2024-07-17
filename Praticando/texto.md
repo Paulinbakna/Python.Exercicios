@@ -1,7 +1,7 @@
-4. Formatando datas e horários:
+5. Datas e horários em diferentes fusos horários:
 
-Formate a data de hoje no formato dd de MMMM de yyyy.
+Converta a data e hora atuais para o fuso horário UTC+0 (Londres).
 
-Formate a hora atual no formato hh:mm:ss (12 horas) com AM/PM.
+Crie uma variável que represente a data e hora em Nova York (fuso horário UTC-5).
 
-Crie uma string que represente a data e hora atuais no formato completo (ano, mês, dia, hora, minuto, segundo, fuso horário).
+Converta a variável de Nova York para o fuso horário local.
