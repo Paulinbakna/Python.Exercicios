@@ -1,0 +1,2040 @@
+[
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "init",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "Ex1funcoes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "Ex1funcoes",
+        "description": "Ex1funcoes",
+        "detail": "Ex1funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "media",
+        "description": "media",
+        "detail": "media",
+        "documentation": {}
+    },
+    {
+        "label": "mediana",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mediana",
+        "description": "mediana",
+        "detail": "mediana",
+        "documentation": {}
+    },
+    {
+        "label": "moda",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "moda",
+        "description": "moda",
+        "detail": "moda",
+        "documentation": {}
+    },
+    {
+        "label": "statistics",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statistics",
+        "description": "statistics",
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_senha",
+        "importPath": "senha",
+        "description": "senha",
+        "isExtraImport": true,
+        "detail": "senha",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "class Item:\n    def __init__(self, nome, preco):\n        self.nome = nome\n        self.preco = preco\n    def __str__(self):\n        return f'{Fore.LIGHTMAGENTA_EX}Nome:{Style.RESET_ALL} {self.nome} |  {Fore.LIGHTYELLOW_EX}Preço R$:{Style.RESET_ALL} {self.preco}'\nclass Cliente:\n    def __init__(self, nome, contato):\n        self.nome = nome\n        self.contato = contato",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "class Cliente:\n    def __init__(self, nome, contato):\n        self.nome = nome\n        self.contato = contato\n    def __str__(self):\n        return f'{Fore.BLUE}Nome do Cliente:{Style.RESET_ALL} {self.nome}\\n{Fore.BLUE}Email para Contato:{Style.RESET_ALL} {self.contato}'\nclass Pedido:\n    def __init__(self, cliente):\n        self.cliente = cliente\n        self.pagamento=0",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Pedido",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "class Pedido:\n    def __init__(self, cliente):\n        self.cliente = cliente\n        self.pagamento=0\n        self.itens = []\n    def adicionar_itens(self, item):\n        self.itens.append(item)\n    def remover_itens(self, item):\n        self.itens.remove(item)\n    def calcular_total(self):",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "nome = input(f'Antes de entrar, por favor insira seu nome:\\n{Fore.LIGHTGREEN_EX}-->> {Style.RESET_ALL}')\nprint('-'*40)\ncontato = input(f'Certo, {nome} agora insira um email para contato:\\n{Fore.LIGHTGREEN_EX}-->>{Style.RESET_ALL} ')\nprint('-'*40)\ncliente = Cliente(nome, contato)\npedido = Pedido(cliente)\n# Menu items\nitems = [\n    Item('Coca-Cola', 6.00),\n    Item('Vinho', 8.99),",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "contato",
+        "kind": 5,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "contato = input(f'Certo, {nome} agora insira um email para contato:\\n{Fore.LIGHTGREEN_EX}-->>{Style.RESET_ALL} ')\nprint('-'*40)\ncliente = Cliente(nome, contato)\npedido = Pedido(cliente)\n# Menu items\nitems = [\n    Item('Coca-Cola', 6.00),\n    Item('Vinho', 8.99),\n    Item('Brownie', 4.99),\n    Item('Salmão', 7.99),",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "cliente",
+        "kind": 5,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "cliente = Cliente(nome, contato)\npedido = Pedido(cliente)\n# Menu items\nitems = [\n    Item('Coca-Cola', 6.00),\n    Item('Vinho', 8.99),\n    Item('Brownie', 4.99),\n    Item('Salmão', 7.99),\n    Item('Peixe Grelhado', 9.99)\n]",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "pedido",
+        "kind": 5,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "pedido = Pedido(cliente)\n# Menu items\nitems = [\n    Item('Coca-Cola', 6.00),\n    Item('Vinho', 8.99),\n    Item('Brownie', 4.99),\n    Item('Salmão', 7.99),\n    Item('Peixe Grelhado', 9.99)\n]\n # Main loop for ordering",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "items",
+        "kind": 5,
+        "importPath": "Aplicações Práticas de POO.Ex1",
+        "description": "Aplicações Práticas de POO.Ex1",
+        "peekOfCode": "items = [\n    Item('Coca-Cola', 6.00),\n    Item('Vinho', 8.99),\n    Item('Brownie', 4.99),\n    Item('Salmão', 7.99),\n    Item('Peixe Grelhado', 9.99)\n]\n # Main loop for ordering\nprint(f'Olá {nome} como você está?')\nsleep(2)",
+        "detail": "Aplicações Práticas de POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex2",
+        "description": "Aplicações Práticas de POO.Ex2",
+        "peekOfCode": "class Produto:\n    def __init__(self,nome,codigo,quantidade,preco):\n        self.nome=nome\n        self.codigo=codigo\n        self.quantidade=quantidade\n        self.preco=preco\n    def __str__(self):\n        return f'Nome: {self.nome}  | Preço R$: {self.preco}  |  Quantidade: {self.quantidade} | Codigo: {self.codigo}'\nclass Fornecedor:\n    def __init__(self,nome,contato):",
+        "detail": "Aplicações Práticas de POO.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "Fornecedor",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex2",
+        "description": "Aplicações Práticas de POO.Ex2",
+        "peekOfCode": "class Fornecedor:\n    def __init__(self,nome,contato):\n        self.nome=nome\n        self.contato=contato\n    def __str__(self):\n        return f'Nome do Fornecedor: {self.nome}\\nEmail para contato: {self.contato}'\nclass Estoque:\n    def __init__(self,fornecedor):\n        self.fonecedor=fornecedor\n        self.lista_produtos=[]",
+        "detail": "Aplicações Práticas de POO.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "Estoque",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex2",
+        "description": "Aplicações Práticas de POO.Ex2",
+        "peekOfCode": "class Estoque:\n    def __init__(self,fornecedor):\n        self.fonecedor=fornecedor\n        self.lista_produtos=[]\n        self.pagamento=0\n    def adicionar(self,produto,quantidade):\n        self.lista_produtos.append(produto)\n        produto.quantidade=quantidade\n        print(f'{produto} adicionado com sucesso a lista!')\n    def remover(self,codigo):",
+        "detail": "Aplicações Práticas de POO.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "Aluno",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex3",
+        "description": "Aplicações Práticas de POO.Ex3",
+        "peekOfCode": "class Aluno:\n    def __init__(self,nome,matricula):\n        self.nome=nome\n        self.matricula=matricula\n    def __str__(self):\n        return f'Nome do Aluno: {self.nome} | Numero da matricula: {self.matricula}'\nclass Turma:\n    def __init__(self,disciplina):\n        self.disciplina=disciplina\n        self.alunos=[]",
+        "detail": "Aplicações Práticas de POO.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "Turma",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex3",
+        "description": "Aplicações Práticas de POO.Ex3",
+        "peekOfCode": "class Turma:\n    def __init__(self,disciplina):\n        self.disciplina=disciplina\n        self.alunos=[]\n    def adicionar_alunos(self,aluno):\n        print(f'Aluno {aluno.nome} adicionado a turma de {self.disciplina}')\n        self.alunos.append(aluno)\n    def remover(self,matricula):\n        for aluno in self.alunos:\n            if aluno.matricula == matricula:",
+        "detail": "Aplicações Práticas de POO.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "RegistroPresenca",
+        "kind": 6,
+        "importPath": "Aplicações Práticas de POO.Ex3",
+        "description": "Aplicações Práticas de POO.Ex3",
+        "peekOfCode": "class RegistroPresenca:\n    def __init__(self):\n        self.registros={}\n    def registrar_presenca(self,turma,data=None):\n        if data is None:\n            data=datetime.now().strftime('%Y-%m-%d')\n        if turma is not self.registros:\n            self.registros[turma]={}\n        self.registros[turma][data]=[aluno.matricula for aluno in turma.alunos]\n        print(f'Presença registraeda para a turma de {turma.disciplina} na data {data}')",
+        "detail": "Aplicações Práticas de POO.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "alunos",
+        "kind": 5,
+        "importPath": "Aplicações Práticas de POO.Ex3",
+        "description": "Aplicações Práticas de POO.Ex3",
+        "peekOfCode": "alunos = [\n        Aluno('João Silva'      , '123'),\n        Aluno('Maria Oliveira'  , '124'),\n        Aluno('Carlos Pereira'  , '125'),\n        Aluno('Ana Grabiele'    , '126'),\n        Aluno('Marcos Vinicios' , '127')\n    ]\nturma1=Turma('Matematica')\nturma2=Turma('História')\nturma3=Turma('Português')",
+        "detail": "Aplicações Práticas de POO.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "Veiculo",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex1",
+        "description": "Avançando em POO.Ex1",
+        "peekOfCode": "class Veiculo:\n    def __init__(self,marca,nome,cor,ano):\n        self.nome=nome\n        self.marca=marca\n        self.cor=cor\n        self.ano=ano\nclass Carro(Veiculo):\n    def __init__(self,marca,nome,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def mostrar(self):",
+        "detail": "Avançando em POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex1",
+        "description": "Avançando em POO.Ex1",
+        "peekOfCode": "class Carro(Veiculo):\n    def __init__(self,marca,nome,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def mostrar(self):\n        print(f'Nome do carro: {self.nome} \\nMarca do carro: {self.marca} \\nCor do carro:  {self.cor} \\nAno do carro: {self.ano}')\nclass Moto(Veiculo):\n    def __init__(self,nome,marca,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def mostrar(self):\n        print(f'Nome da Moto: {self.nome} \\nMarca da Moto: {self.marca} \\nCor da Moto:  {self.cor} \\nAno da Moto: {self.ano}')",
+        "detail": "Avançando em POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Moto",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex1",
+        "description": "Avançando em POO.Ex1",
+        "peekOfCode": "class Moto(Veiculo):\n    def __init__(self,nome,marca,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def mostrar(self):\n        print(f'Nome da Moto: {self.nome} \\nMarca da Moto: {self.marca} \\nCor da Moto:  {self.cor} \\nAno da Moto: {self.ano}')\ncarro=Carro('Dodge','Ram','Vermelho',2024)\nmoto=Moto('Fam','Yamaha','Preto',2023)\ncarro.mostrar()\nprint('='*40)\nmoto.mostrar()",
+        "detail": "Avançando em POO.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Funcionario",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex10",
+        "description": "Avançando em POO.Ex10",
+        "peekOfCode": "class Funcionario:\n    def __init__(self,nome,salario):\n        self.__nome=nome\n        self.__salario=salario\n    def exibir(self):\n        print(f'Nome: {self.__nome}')\n        print(f'Salario R$ {self.__salario}')\n    def salario_anual(self):\n        total=self.__salario * 12\n        print(f'Salario Anual R$ {total}')",
+        "detail": "Avançando em POO.Ex10",
+        "documentation": {}
+    },
+    {
+        "label": "Professor",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex10",
+        "description": "Avançando em POO.Ex10",
+        "peekOfCode": "class Professor(Funcionario):\n    def __init__(self, nome, salario,disciplina):\n        super().__init__(nome, salario)\n        self.__disciplina=disciplina\n    def exibir(self):\n        super().exibir()\n        print(f'Disciplina ensinada: {self.__disciplina}')\nclass Adiministrador(Funcionario):\n    def __init__(self, nome, salario,departamento):\n        super().__init__(nome, salario)",
+        "detail": "Avançando em POO.Ex10",
+        "documentation": {}
+    },
+    {
+        "label": "Adiministrador",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex10",
+        "description": "Avançando em POO.Ex10",
+        "peekOfCode": "class Adiministrador(Funcionario):\n    def __init__(self, nome, salario,departamento):\n        super().__init__(nome, salario)\n        self.__departamento= departamento\n    def exibir(self):\n        super().exibir()\n        print(f'Departamento: {self.__departamento}')\nprofessor=Professor('João',1450,'Ingles')\nprofessor.exibir()\nprofessor.salario_anual()",
+        "detail": "Avançando em POO.Ex10",
+        "documentation": {}
+    },
+    {
+        "label": "Veiculo",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex2",
+        "description": "Avançando em POO.Ex2",
+        "peekOfCode": "class Veiculo:\n    def __init__(self,marca,modelo):\n        self.marca=marca\n        self.modelo=modelo\n    def acelerar(self):\n        pass\n    def frear(self):\n        pass\nclass Carro(Veiculo):\n    def __init__(self, marca, modelo):",
+        "detail": "Avançando em POO.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex2",
+        "description": "Avançando em POO.Ex2",
+        "peekOfCode": "class Carro(Veiculo):\n    def __init__(self, marca, modelo):\n        super().__init__(marca, modelo)\n    def acelerar(self):\n        print(f'O Carro {self.marca} {self.modelo} esta acelerando')\n    def frear(self):\n        print(f'O Carro {self.marca} {self.modelo} esta freando')\nclass Moto(Veiculo):\n    def __init__(self, marca, modelo):\n        super().__init__(marca, modelo)",
+        "detail": "Avançando em POO.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "Moto",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex2",
+        "description": "Avançando em POO.Ex2",
+        "peekOfCode": "class Moto(Veiculo):\n    def __init__(self, marca, modelo):\n        super().__init__(marca, modelo)\n    def acelerar(self):\n        print(f'A Moto {self.marca}{self.modelo} esta acelerando')\n    def frear(self):\n        print(f'A Moto {self.marca}{self.modelo} esta freando')\nclass Avião(Veiculo):\n    def __init__(self, marca, modelo):\n        super().__init__(marca, modelo)",
+        "detail": "Avançando em POO.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "Avião",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex2",
+        "description": "Avançando em POO.Ex2",
+        "peekOfCode": "class Avião(Veiculo):\n    def __init__(self, marca, modelo):\n        super().__init__(marca, modelo)\n    def acelerar(self):\n        print(f'O Aviâo esta acelerando')\n    def decolar(self):\n        print(f'O Avião esta decolando')\n    def frear(self):\n        print(f'O Aviâo esta freando')\nlista_veiculos=[Carro('Ford ','Mustang'),Moto('Honda','CB 1000 Black Edition'),Avião('Boeing','757')]",
+        "detail": "Avançando em POO.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "ContaBancaria",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex3",
+        "description": "Avançando em POO.Ex3",
+        "peekOfCode": "class ContaBancaria:\n    def __init__(self,numero_da_conta,saldo=0):\n        self.__saldo=saldo\n        self.__numero_da_conta= numero_da_conta\n    def depositar(self,valor):\n        if valor > 0:\n            self.__saldo+=valor\n            print(f'Deposito no valor de {valor} realizado com sucesso.')\n        else:\n            print('O valor do deposito tem que ser positivo')",
+        "detail": "Avançando em POO.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "ContaCorrente",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex3",
+        "description": "Avançando em POO.Ex3",
+        "peekOfCode": "class ContaCorrente(ContaBancaria):\n    def __init__(self, numero_da_conta,saldo=0,limite_cheque_especial=0):\n        super().__init__(numero_da_conta,saldo)\n        self.__limite_cheque_especial=limite_cheque_especial\n    def sacar(self,valor):\n        soma=self.consultar_saldo() + self.__limite_cheque_especial\n        if 0 < valor <= soma:\n            novo_saldo= self.consultar_saldo() - valor\n            if novo_saldo < 0:\n                self.limite_cheque_especial+=novo_saldo",
+        "detail": "Avançando em POO.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "ContaPoupanca",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex3",
+        "description": "Avançando em POO.Ex3",
+        "peekOfCode": "class ContaPoupanca(ContaBancaria):\n    def __init__(self, numero_da_conta,saldo=0,taxa_de_juros=0.01):\n        super().__init__(numero_da_conta,saldo)\n        self.__taxa_de_juros=taxa_de_juros\n    def aplicar_juros(self):\n        juros=self.consultar_saldo() * self.__taxa_de_juros\n        self.depositar(juros)\n        print(f'Juros de R$ {juros} aplicado ao saldo.')\nconta_corrente=ContaCorrente(numero_da_conta=123,saldo=100,limite_cheque_especial=250)\nconta_corrente.depositar(50)",
+        "detail": "Avançando em POO.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "Livro",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex4",
+        "description": "Avançando em POO.Ex4",
+        "peekOfCode": "class Livro:\n    def __init__(self,titulo,autor,numero_de_paginas):\n        self.__titulo=titulo\n        self.__autor=autor\n        self.__numero_de_pagians=numero_de_paginas\n    def exibir_informacoes(self):\n        print(f'Titulo: {self.__titulo}')\n        print(f'Autor: {self.__autor}')\n        print(f'Numero de Paginas: {self.__numero_de_pagians}')\n    def tempo_leitura(self):",
+        "detail": "Avançando em POO.Ex4",
+        "documentation": {}
+    },
+    {
+        "label": "LivroDigital",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex4",
+        "description": "Avançando em POO.Ex4",
+        "peekOfCode": "class LivroDigital(Livro):\n    def __init__(self, titulo, autor, numero_de_paginas,tamanha_do_arquivo):\n        super().__init__(titulo, autor, numero_de_paginas)\n        self.__tamanho_do_arquivo=tamanha_do_arquivo\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Tamanho do arquivo: {self.__tamanho_do_arquivo} MB')\nlivro1=Livro('Python Basico','João Silva',100)\nlivro1.exibir_informacoes()\nlivro1.tempo_leitura()",
+        "detail": "Avançando em POO.Ex4",
+        "documentation": {}
+    },
+    {
+        "label": "Veiculo",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex5",
+        "description": "Avançando em POO.Ex5",
+        "peekOfCode": "class Veiculo:\n    def __init__(self,marca,modelo):\n        self.__marca=marca\n        self.__modelo=modelo\n    def exibir_informacoes(self):\n        print(f'Marca: {self.__marca}')\n        print(f'Modelo: {self.__modelo}')\nclass Carro(Veiculo):\n    def __init__(self, marca, modelo,numero_de_portas):\n        super().__init__(marca, modelo)",
+        "detail": "Avançando em POO.Ex5",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex5",
+        "description": "Avançando em POO.Ex5",
+        "peekOfCode": "class Carro(Veiculo):\n    def __init__(self, marca, modelo,numero_de_portas):\n        super().__init__(marca, modelo)\n        self.__numero_de_portas=numero_de_portas\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Numero de portas: {self.__numero_de_portas}')\nclass Motocicleta(Veiculo):\n    def __init__(self, marca, modelo,modelo_guidao):\n        super().__init__(marca, modelo)",
+        "detail": "Avançando em POO.Ex5",
+        "documentation": {}
+    },
+    {
+        "label": "Motocicleta",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex5",
+        "description": "Avançando em POO.Ex5",
+        "peekOfCode": "class Motocicleta(Veiculo):\n    def __init__(self, marca, modelo,modelo_guidao):\n        super().__init__(marca, modelo)\n        self.__modelo_guidao=modelo_guidao\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Modelo do guidão: {self.__modelo_guidao}')\ncarro=Carro('Ford','Mustang',4)\ncarro.exibir_informacoes()\nprint('-------------')",
+        "detail": "Avançando em POO.Ex5",
+        "documentation": {}
+    },
+    {
+        "label": "Empregado",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex6",
+        "description": "Avançando em POO.Ex6",
+        "peekOfCode": "class Empregado:\n    def __init__(self,nome,salario):\n        self.__nome=nome\n        self.__salario=salario\n    def exibir_informacoes(self):\n        print(f'Nome: {self.__nome}')\n        print(f'Salario: {self.__salario}')\nclass Gerente(Empregado):\n    def __init__(self, nome, salario,bonus_anual):\n        super().__init__(nome, salario)",
+        "detail": "Avançando em POO.Ex6",
+        "documentation": {}
+    },
+    {
+        "label": "Gerente",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex6",
+        "description": "Avançando em POO.Ex6",
+        "peekOfCode": "class Gerente(Empregado):\n    def __init__(self, nome, salario,bonus_anual):\n        super().__init__(nome, salario)\n        self.__bonus_anual=bonus_anual\n    def salario_total(self):\n        return self._Empregado__salario + self.__bonus_anual\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Bonus Anual: {self.__bonus_anual}')\n        print(f'Salario Total: {self.salario_total()}')",
+        "detail": "Avançando em POO.Ex6",
+        "documentation": {}
+    },
+    {
+        "label": "Desenvolvedor",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex6",
+        "description": "Avançando em POO.Ex6",
+        "peekOfCode": "class Desenvolvedor(Empregado):\n    def __init__(self, nome, salario,linguagem_programacao):\n        super().__init__(nome, salario)\n        self.__linguagem_programacao=linguagem_programacao\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Linguagem de Programação: {self.__linguagem_programacao}')\nempregado=Empregado('João',1450)\nempregado.exibir_informacoes()\nprint('---------------')",
+        "detail": "Avançando em POO.Ex6",
+        "documentation": {}
+    },
+    {
+        "label": "Reserva",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex7",
+        "description": "Avançando em POO.Ex7",
+        "peekOfCode": "class Reserva:\n    def __init__(self,nome,numero_quarto):\n        self.__nome=nome\n        self.__numero_quarto=numero_quarto\n    def exibir_informacoes(self):\n        print(f'Nome do Hóspede: {self.__nome}')\n        print(f'Numero do Quarto: {self.__numero_quarto}')\nclass Reversa_simples(Reserva):\n    def __init__(self, nome, numero_quarto,duracao_estadia,preco_por_noite):\n        super().__init__(nome, numero_quarto)",
+        "detail": "Avançando em POO.Ex7",
+        "documentation": {}
+    },
+    {
+        "label": "Reversa_simples",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex7",
+        "description": "Avançando em POO.Ex7",
+        "peekOfCode": "class Reversa_simples(Reserva):\n    def __init__(self, nome, numero_quarto,duracao_estadia,preco_por_noite):\n        super().__init__(nome, numero_quarto)\n        self.__duracao_estadia=duracao_estadia\n        self.__preco_por_noite=preco_por_noite\n    def calcular_custo_total(self):\n        return self.__duracao_estadia * self.__preco_por_noite\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Duração da estadia: {self.__duracao_estadia}')",
+        "detail": "Avançando em POO.Ex7",
+        "documentation": {}
+    },
+    {
+        "label": "Reserva_Luxo",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex7",
+        "description": "Avançando em POO.Ex7",
+        "peekOfCode": "class Reserva_Luxo(Reserva):\n    def __init__(self, nome, numero_quarto,servico_de_quarto,preco_por_noite):\n        super().__init__(nome, numero_quarto)\n        self.__servico_de_quarto=servico_de_quarto\n        self.__preco_por_noite=preco_por_noite\n    def calcular_custo_total(self,duracao_estadia):\n        return duracao_estadia * self.__preco_por_noite + self.__servico_de_quarto\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Serviço de quarto incluido: R${self.__servico_de_quarto}')",
+        "detail": "Avançando em POO.Ex7",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex8",
+        "description": "Avançando em POO.Ex8",
+        "peekOfCode": "class Produto:\n    def __init__(self,nome,preco):\n        self.__nome=nome\n        self.__preco= preco\n    def exibir_informacoes(self):\n        print(f'Nome: {self.__nome}')\n        print(f'Preço: R$ {self.__preco}')\nclass ProdutoPerecivel(Produto):\n    def __init__(self, nome, preco,data_validade):\n        super().__init__(nome, preco)",
+        "detail": "Avançando em POO.Ex8",
+        "documentation": {}
+    },
+    {
+        "label": "ProdutoPerecivel",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex8",
+        "description": "Avançando em POO.Ex8",
+        "peekOfCode": "class ProdutoPerecivel(Produto):\n    def __init__(self, nome, preco,data_validade):\n        super().__init__(nome, preco)\n        self.__data_validade=data_validade\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Data de Validade: {self.__data_validade}')\nclass ProdutoEletronico(Produto):\n    def __init__(self, nome, preco,garantia):\n        super().__init__(nome, preco)",
+        "detail": "Avançando em POO.Ex8",
+        "documentation": {}
+    },
+    {
+        "label": "ProdutoEletronico",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex8",
+        "description": "Avançando em POO.Ex8",
+        "peekOfCode": "class ProdutoEletronico(Produto):\n    def __init__(self, nome, preco,garantia):\n        super().__init__(nome, preco)\n        self.__garantia= garantia\n    def exibir_informacoes(self):\n        super().exibir_informacoes()\n        print(f'Garantia: {self.__garantia}')\nproduto_perecivel=ProdutoPerecivel('Leite',4.80,'10/06/2024')\nproduto_perecivel.exibir_informacoes()\nprint('------------')",
+        "detail": "Avançando em POO.Ex8",
+        "documentation": {}
+    },
+    {
+        "label": "Transporte",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex9",
+        "description": "Avançando em POO.Ex9",
+        "peekOfCode": "class Transporte:\n    def __init__(self,tipo,capacidade):\n        self.__tipo=tipo\n        self.__capacidade=capacidade\n    def exibir(self):\n        print(f'Tipo: {self.__tipo}')\n        print(f'Capacidade: {self.__capacidade} Litros')\nclass TansporteTerrestre(Transporte):\n    def __init__(self, tipo, capacidade,tipo_combustivel):\n        super().__init__(tipo, capacidade)",
+        "detail": "Avançando em POO.Ex9",
+        "documentation": {}
+    },
+    {
+        "label": "TansporteTerrestre",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex9",
+        "description": "Avançando em POO.Ex9",
+        "peekOfCode": "class TansporteTerrestre(Transporte):\n    def __init__(self, tipo, capacidade,tipo_combustivel):\n        super().__init__(tipo, capacidade)\n        self.__tipo_combustivel=tipo_combustivel\n    def exibir(self):\n        super().exibir()\n        print(f'Tipo de combustivel: {self.__tipo_combustivel}')\nclass TransporteAereo(Transporte):\n    def __init__(self, tipo, capacidade,altitude_maxima):\n        super().__init__(tipo, capacidade)",
+        "detail": "Avançando em POO.Ex9",
+        "documentation": {}
+    },
+    {
+        "label": "TransporteAereo",
+        "kind": 6,
+        "importPath": "Avançando em POO.Ex9",
+        "description": "Avançando em POO.Ex9",
+        "peekOfCode": "class TransporteAereo(Transporte):\n    def __init__(self, tipo, capacidade,altitude_maxima):\n        super().__init__(tipo, capacidade)\n        self.__atitude_maxima=altitude_maxima\n    def exibir(self):\n        super().exibir()\n        print(f'Atitulde maxima: {self.__atitude_maxima} Metros')\ncarro=TansporteTerrestre('Mustang',50,'Etanol')\ncarro.exibir()\nprint('--------------')",
+        "detail": "Avançando em POO.Ex9",
+        "documentation": {}
+    },
+    {
+        "label": "hoje",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "description": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "peekOfCode": "hoje = datetime.now()\n# Formatação das datas\nhoje_brasileiro = hoje.strftime('%d/%m/%Y')\nhoje_hora = hoje.strftime('%H:%M:%S')\n# Data de aniversário\ndata_aniversario = datetime(year=2004, month=6, day=22)\n# Cálculo do próximo aniversário\nproximo_aniversario = data_aniversario.replace(year=hoje.year)\nif proximo_aniversario < hoje:\n    proximo_aniversario = proximo_aniversario.replace(year=hoje.year + 1)",
+        "detail": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "hoje_brasileiro",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "description": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "peekOfCode": "hoje_brasileiro = hoje.strftime('%d/%m/%Y')\nhoje_hora = hoje.strftime('%H:%M:%S')\n# Data de aniversário\ndata_aniversario = datetime(year=2004, month=6, day=22)\n# Cálculo do próximo aniversário\nproximo_aniversario = data_aniversario.replace(year=hoje.year)\nif proximo_aniversario < hoje:\n    proximo_aniversario = proximo_aniversario.replace(year=hoje.year + 1)\n# Dias restantes para o próximo aniversário\ndias_para_aniversario = (proximo_aniversario - hoje).days",
+        "detail": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "hoje_hora",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "description": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "peekOfCode": "hoje_hora = hoje.strftime('%H:%M:%S')\n# Data de aniversário\ndata_aniversario = datetime(year=2004, month=6, day=22)\n# Cálculo do próximo aniversário\nproximo_aniversario = data_aniversario.replace(year=hoje.year)\nif proximo_aniversario < hoje:\n    proximo_aniversario = proximo_aniversario.replace(year=hoje.year + 1)\n# Dias restantes para o próximo aniversário\ndias_para_aniversario = (proximo_aniversario - hoje).days\n# Exibição dos resultados",
+        "detail": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "data_aniversario",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "description": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "peekOfCode": "data_aniversario = datetime(year=2004, month=6, day=22)\n# Cálculo do próximo aniversário\nproximo_aniversario = data_aniversario.replace(year=hoje.year)\nif proximo_aniversario < hoje:\n    proximo_aniversario = proximo_aniversario.replace(year=hoje.year + 1)\n# Dias restantes para o próximo aniversário\ndias_para_aniversario = (proximo_aniversario - hoje).days\n# Exibição dos resultados\nprint(f'Data de Hoje: {hoje_brasileiro}')\nprint(f'Hora Atual: {hoje_hora}')",
+        "detail": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "proximo_aniversario",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "description": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "peekOfCode": "proximo_aniversario = data_aniversario.replace(year=hoje.year)\nif proximo_aniversario < hoje:\n    proximo_aniversario = proximo_aniversario.replace(year=hoje.year + 1)\n# Dias restantes para o próximo aniversário\ndias_para_aniversario = (proximo_aniversario - hoje).days\n# Exibição dos resultados\nprint(f'Data de Hoje: {hoje_brasileiro}')\nprint(f'Hora Atual: {hoje_hora}')\nprint(f'Data Aniversario: {data_aniversario.strftime(\"%d/%m/%Y\")}')\nprint(f'Dias Para o Proximo Aniversario: {dias_para_aniversario}')",
+        "detail": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "dias_para_aniversario",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "description": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "peekOfCode": "dias_para_aniversario = (proximo_aniversario - hoje).days\n# Exibição dos resultados\nprint(f'Data de Hoje: {hoje_brasileiro}')\nprint(f'Hora Atual: {hoje_hora}')\nprint(f'Data Aniversario: {data_aniversario.strftime(\"%d/%m/%Y\")}')\nprint(f'Dias Para o Proximo Aniversario: {dias_para_aniversario}')",
+        "detail": "Bibliotecas Padrão e Externas.anotacoes_datetime",
+        "documentation": {}
+    },
+    {
+        "label": "hoje",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.Ex1",
+        "description": "Bibliotecas Padrão e Externas.Ex1",
+        "peekOfCode": "hoje = datetime.now()\nhoje_brasileiro=hoje.strftime('%d/%m/%Y')\nhoje_hora=hoje.strftime('%H:%M:%S')\ndata_aniversario=datetime(year=2004,month=6,day=22)\nproximo_aniversario=data_aniversario.replace(year=hoje.year)\nif proximo_aniversario < hoje:\n    proximo_aniversario = proximo_aniversario.replace(year=hoje.year+1)\ndias_para_aniversario = (proximo_aniversario - hoje).days\nprint(f'Data de Hoje: {hoje_brasileiro}')\nprint(f'Hora Atual: {hoje_hora}')",
+        "detail": "Bibliotecas Padrão e Externas.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "dias_para_aniversario",
+        "kind": 5,
+        "importPath": "Bibliotecas Padrão e Externas.Ex1",
+        "description": "Bibliotecas Padrão e Externas.Ex1",
+        "peekOfCode": "dias_para_aniversario = (proximo_aniversario - hoje).days\nprint(f'Data de Hoje: {hoje_brasileiro}')\nprint(f'Hora Atual: {hoje_hora}')\nprint(f'Data Aniversario: {data_aniversario.strftime('%d/%m/%Y')}')\nprint(f'Dias Para o Proximo Aniversario: {dias_para_aniversario}')",
+        "detail": "Bibliotecas Padrão e Externas.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Conceitos_Basicos_Poo.Ex1",
+        "description": "Conceitos_Basicos_Poo.Ex1",
+        "peekOfCode": "class Carro:\n    def __init__(self,marca,modelo,ano):\n        self.marca=marca\n        self.modelo=modelo\n        self.ano=ano\n    def exibir(self):\n        print(f'Marca: {self.marca}')\n        print(f'Modelo: {self.modelo}')\n        print(f'Ano: {self.ano}')\ncarro1=Carro('Ford','Mustang',2021)",
+        "detail": "Conceitos_Basicos_Poo.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Conceitos_Basicos_Poo.Ex2",
+        "description": "Conceitos_Basicos_Poo.Ex2",
+        "peekOfCode": "class Carro:\n    def __init__(self,marca,modelo,ano):\n        self.marca=marca\n        self.modelo=modelo\n        self.ano=ano\n    def exibir(self):\n        print(f'Marca: {self.marca}')\n        print(f'Modelo: {self.modelo}')\n        print(f'Ano: {self.ano}')\ncarro2=Carro('Ford','Mustang',2022)",
+        "detail": "Conceitos_Basicos_Poo.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "ContaBancaria",
+        "kind": 6,
+        "importPath": "Conceitos_Basicos_Poo.Ex3",
+        "description": "Conceitos_Basicos_Poo.Ex3",
+        "peekOfCode": "class ContaBancaria:\n    def __init__(self,titular,numero_conta,saldo=0):\n        self.titular=titular\n        self.numero_conta=numero_conta\n        self.saldo=saldo\n    def depositar(self,valor):\n        self.saldo +=valor\n        print(f'Deposito no valor de R$ {valor:.2f} realizado com sucesso!')\n        print(f'Saldo atual: R$ {self.saldo:.2f}')\n    def sacar(self,valor):",
+        "detail": "Conceitos_Basicos_Poo.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "maior_numero",
+        "kind": 2,
+        "importPath": "Funções.Ex1",
+        "description": "Funções.Ex1",
+        "peekOfCode": "def maior_numero(num1,num2):\n    if num1 > num2:\n        print(f'O numero {num1} e o maior numero.') \n    elif num1 == num2:\n        print(f'Os numeros {num1} e {num2} são iguais')\n    else:\n        print(f'O numero {num2} e o maior numero.')\nn1=int(input('Digite um numero:'))\nn2=int(input('Digite um numero:'))\nmaior_numero(n1,n2)",
+        "detail": "Funções.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "palindromo",
+        "kind": 2,
+        "importPath": "Funções.Ex2",
+        "description": "Funções.Ex2",
+        "peekOfCode": "def palindromo(pala):\n    contrario= pala[::-1]\n    if contrario == pala:\n        print(f'A palavra {pala} ao contrario fica {contrario} então é um palindromo')\n    else:\n        print(f'A palavra {pala} ao contrario fica {contrario} então ela nao é um palindromo')\npalavra=input('Digite uma palavra: ')\npalindromo(palavra)",
+        "detail": "Funções.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "calcualr_media",
+        "kind": 2,
+        "importPath": "Manipulação_de_Arquivos_e_Erros.Ex3",
+        "description": "Manipulação_de_Arquivos_e_Erros.Ex3",
+        "peekOfCode": "def calcualr_media(caminho_arquivo,nome_coluna):\n    #abre o arquivo CSV no modo de leitura ('r') e com codificação UTF-8\n    with open(caminho_arquivo, 'r+',encoding='utf-8') as arquivo:\n        leitor=csv.DictReader(arquivo)\n    #Cria uma lista de valores,extraindo os valores da coluna especificada e converte para float para facilitar o calculo\n    valores=  [float(linha[nome_coluna]) for linha in leitor ]\n    #Calcula a média dos valores. Se a lista estiver vazia, retorna 0\n    media= sum(valores)/ len(valores) if valores else 0\n    #Retorna a média calculada\n    return media",
+        "detail": "Manipulação_de_Arquivos_e_Erros.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "Veiculo",
+        "kind": 6,
+        "importPath": "Metodos_e_atributos_especiais.Ex1",
+        "description": "Metodos_e_atributos_especiais.Ex1",
+        "peekOfCode": "class Veiculo:\n    def __init__(self,marca,nome,cor,ano):\n        self.nome=nome\n        self.marca=marca\n        self.cor=cor\n        self.ano=ano\nclass Carro(Veiculo):\n    def __init__(self,marca,nome,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def __str__(self):",
+        "detail": "Metodos_e_atributos_especiais.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Metodos_e_atributos_especiais.Ex1",
+        "description": "Metodos_e_atributos_especiais.Ex1",
+        "peekOfCode": "class Carro(Veiculo):\n    def __init__(self,marca,nome,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def __str__(self):\n        return f'Nome do carro: {self.nome} \\nMarca do carro: {self.marca} \\nCor do carro:  {self.cor} \\nAno do carro: {self.ano}'\nclass Moto(Veiculo):\n    def __init__(self,nome,marca,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def __str__(self):\n        return f'Nome da Moto: {self.nome} \\nMarca da Moto: {self.marca} \\nCor da Moto:  {self.cor} \\nAno da Moto: {self.ano}'",
+        "detail": "Metodos_e_atributos_especiais.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Moto",
+        "kind": 6,
+        "importPath": "Metodos_e_atributos_especiais.Ex1",
+        "description": "Metodos_e_atributos_especiais.Ex1",
+        "peekOfCode": "class Moto(Veiculo):\n    def __init__(self,nome,marca,cor,ano):\n        super().__init__(nome,marca,cor,ano)\n    def __str__(self):\n        return f'Nome da Moto: {self.nome} \\nMarca da Moto: {self.marca} \\nCor da Moto:  {self.cor} \\nAno da Moto: {self.ano}'\ncarro=Carro('Dodge','Ram','Vermelho',2024)\nmoto=Moto('Fam','Yamaha','Preto',2023)\nprint(carro)\nprint('='*40)\nprint(moto)",
+        "detail": "Metodos_e_atributos_especiais.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Veiculo",
+        "kind": 6,
+        "importPath": "Metodos_e_atributos_especiais.EX2",
+        "description": "Metodos_e_atributos_especiais.EX2",
+        "peekOfCode": "class Veiculo:\n    def __init__(self,marca,modelo,cor,ano):\n        self.__marca=marca\n        self.__modelo=modelo\n        self.__cor=cor\n        self.__ano=ano\n    @property\n    def marca(self):\n        return self.__marca\n    @marca.setter",
+        "detail": "Metodos_e_atributos_especiais.EX2",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "description": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "peekOfCode": "def somar(a,b):\n    return f'Resultado da soma entre {a} + {b} = {a + b}'\ndef subtrair(a,b):\n    return f'Resultado da subtração entre {a} - {b} = {a-b}'\ndef multiplicar(a,b):\n    return f'Resultada da multiplicação entre {a} x {b} = {a*b}'\ndef dividir(a,b):\n    return f'Resultado da divisão entre {a} e {b} = {a/b}'",
+        "detail": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "subtrair",
+        "kind": 2,
+        "importPath": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "description": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "peekOfCode": "def subtrair(a,b):\n    return f'Resultado da subtração entre {a} - {b} = {a-b}'\ndef multiplicar(a,b):\n    return f'Resultada da multiplicação entre {a} x {b} = {a*b}'\ndef dividir(a,b):\n    return f'Resultado da divisão entre {a} e {b} = {a/b}'",
+        "detail": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicar",
+        "kind": 2,
+        "importPath": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "description": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "peekOfCode": "def multiplicar(a,b):\n    return f'Resultada da multiplicação entre {a} x {b} = {a*b}'\ndef dividir(a,b):\n    return f'Resultado da divisão entre {a} e {b} = {a/b}'",
+        "detail": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "kind": 2,
+        "importPath": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "description": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "peekOfCode": "def dividir(a,b):\n    return f'Resultado da divisão entre {a} e {b} = {a/b}'",
+        "detail": "Módulos e Pacotes.Ex1.Ex1funcoes",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 2,
+        "importPath": "Módulos e Pacotes.Ex2.py.media",
+        "description": "Módulos e Pacotes.Ex2.py.media",
+        "peekOfCode": "def media(valores):\n    return f'Media dos valores: {statistics.mean(valores):.2f}'",
+        "detail": "Módulos e Pacotes.Ex2.py.media",
+        "documentation": {}
+    },
+    {
+        "label": "mediana",
+        "kind": 2,
+        "importPath": "Módulos e Pacotes.Ex2.py.mediana",
+        "description": "Módulos e Pacotes.Ex2.py.mediana",
+        "peekOfCode": "def mediana(valores):\n    return f'Mediana dos valores: {statistics.median(valores)}'",
+        "detail": "Módulos e Pacotes.Ex2.py.mediana",
+        "documentation": {}
+    },
+    {
+        "label": "moda",
+        "kind": 2,
+        "importPath": "Módulos e Pacotes.Ex2.py.moda",
+        "description": "Módulos e Pacotes.Ex2.py.moda",
+        "peekOfCode": "def moda(valores):\n    try:\n        moda= statistics.multimode(valores)\n    except statistics.StatisticsError as e :\n        return f'Erro ao calcular a moda: {e}'\n    return f'Moda dos valores: {moda}'",
+        "detail": "Módulos e Pacotes.Ex2.py.moda",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 2,
+        "importPath": "Praticando.decoradores",
+        "description": "Praticando.decoradores",
+        "peekOfCode": "def logger(function):\n    from datetime import datetime\n    def inner_function(*args, **kwargs):\n        try:\n            result= function(*args, **kwargs)\n            print('-'*60)\n            print(f'{Fore.BLUE}Data e Hora que foi chamada: {Style.RESET_ALL}{Fore.CYAN}{datetime.now()}{Style.RESET_ALL}\\n{Fore.MAGENTA}Chamando a função: {Style.RESET_ALL}{Fore.GREEN}{function.__name__}{Style.RESET_ALL}')\n            print(f'{Fore.YELLOW}Resultado:{Style.RESET_ALL} {Fore.LIGHTGREEN_EX}{result}{Style.RESET_ALL}')\n            return result\n        except Exception as e:",
+        "detail": "Praticando.decoradores",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "Praticando.decoradores",
+        "description": "Praticando.decoradores",
+        "peekOfCode": "def soma(a,b):\n    return a + b\n@logger\ndef subtrair(a,b):\n    return a - b \n@logger\ndef multiplicar(a,b):\n    return a * b\n@logger\ndef dividir(a,b):",
+        "detail": "Praticando.decoradores",
+        "documentation": {}
+    },
+    {
+        "label": "subtrair",
+        "kind": 2,
+        "importPath": "Praticando.decoradores",
+        "description": "Praticando.decoradores",
+        "peekOfCode": "def subtrair(a,b):\n    return a - b \n@logger\ndef multiplicar(a,b):\n    return a * b\n@logger\ndef dividir(a,b):\n    return a / b\nwhile True:    \n    print('-'*60)",
+        "detail": "Praticando.decoradores",
+        "documentation": {}
+    },
+    {
+        "label": "multiplicar",
+        "kind": 2,
+        "importPath": "Praticando.decoradores",
+        "description": "Praticando.decoradores",
+        "peekOfCode": "def multiplicar(a,b):\n    return a * b\n@logger\ndef dividir(a,b):\n    return a / b\nwhile True:    \n    print('-'*60)\n    mensagem= '-- CALCULADORA BASICA -- ' \n    centro=mensagem.center(60)\n    print(centro)",
+        "detail": "Praticando.decoradores",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "kind": 2,
+        "importPath": "Praticando.decoradores",
+        "description": "Praticando.decoradores",
+        "peekOfCode": "def dividir(a,b):\n    return a / b\nwhile True:    \n    print('-'*60)\n    mensagem= '-- CALCULADORA BASICA -- ' \n    centro=mensagem.center(60)\n    print(centro)\n    print('-'*60)\n    try:\n        n1=int(input('Digite o 1° numero: '))",
+        "detail": "Praticando.decoradores",
+        "documentation": {}
+    },
+    {
+        "label": "Pet",
+        "kind": 6,
+        "importPath": "Praticando.encapsulamento",
+        "description": "Praticando.encapsulamento",
+        "peekOfCode": "class Pet:\n    def __init__(self,nome,peso):\n        self.nome= nome\n        self.peso=peso\n    def imprimirPet(self):\n        print(f'Nome do Pet: {self.nome}')\n        print(f'Peso do  Pet: {self.peso}')\n    def alimentarPet(self,comida):\n        self.peso+=comida\n#---------------------------------------",
+        "detail": "Praticando.encapsulamento",
+        "documentation": {}
+    },
+    {
+        "label": "Abrigo",
+        "kind": 6,
+        "importPath": "Praticando.encapsulamento",
+        "description": "Praticando.encapsulamento",
+        "peekOfCode": "class Abrigo:\n    __catalogo= []\n    def adicionarPet(self,pet):\n        self.__catalogo.append(pet)\n    def imprimirAbrigo(self):\n        print(f'Pets no abrigo:')\n        print('----------------')\n        for pet in self.__catalogo:\n            pet.imprimirPet()\n            print('----------------')",
+        "detail": "Praticando.encapsulamento",
+        "documentation": {}
+    },
+    {
+        "label": "meu_decorador",
+        "kind": 2,
+        "importPath": "Praticando.Ex1",
+        "description": "Praticando.Ex1",
+        "peekOfCode": "def meu_decorador(func):\n    def mostrar():\n        print('Antes da função')\n        func()\n        print('Depois da função')\n    return mostrar\n@meu_decorador\ndef funçao():\n    print('Função chamada!')\nfunçao()",
+        "detail": "Praticando.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "funçao",
+        "kind": 2,
+        "importPath": "Praticando.Ex1",
+        "description": "Praticando.Ex1",
+        "peekOfCode": "def funçao():\n    print('Função chamada!')\nfunçao()",
+        "detail": "Praticando.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Praticando.Ex10",
+        "description": "Praticando.Ex10",
+        "peekOfCode": "class Carro:\n    def __init__(self,modelo,marca,ano,cor):\n        self.__marca=marca\n        self.__modelo=modelo\n        self.__ano=ano\n        self.__cor=cor\n    #Ajusta para que os parametros sejam mostrados corretamente \n    def __repr__(self):\n        return f'Carro(marca= {self.__marca}\\n,Modelo= {self.__modelo}\\n,Ano= {self.__ano}\\n,Cor= {self.__cor})'\n    #Retorna uma mensagem formatada sem a necessidade de criar um print para isso",
+        "detail": "Praticando.Ex10",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Praticando.Ex11",
+        "description": "Praticando.Ex11",
+        "peekOfCode": "class Carro:\n    def __init__(self,marca,modelo,ano):\n        self.marca=marca\n        self.modelo=modelo\n        self.ano=ano\n    def __str__(self):\n        return f'Marca: {self.marca}\\nModelo: {self.modelo}\\nAno: {self.ano}'\n    @property\n    def marca(self):\n        return self.__marca",
+        "detail": "Praticando.Ex11",
+        "documentation": {}
+    },
+    {
+        "label": "Carro",
+        "kind": 6,
+        "importPath": "Praticando.Ex12",
+        "description": "Praticando.Ex12",
+        "peekOfCode": "class Carro:\n    def __init__(self, marca, modelo, ano):\n        self.marca = marca\n        self.modelo = modelo\n        self.ano = ano\n    def __str__(self):\n        return f\"{self.marca} {self.modelo} ({self.ano})\"\nclass Garagem(Carro):\n    def __init__(self):\n        self.carros = []",
+        "detail": "Praticando.Ex12",
+        "documentation": {}
+    },
+    {
+        "label": "Garagem",
+        "kind": 6,
+        "importPath": "Praticando.Ex12",
+        "description": "Praticando.Ex12",
+        "peekOfCode": "class Garagem(Carro):\n    def __init__(self):\n        self.carros = []\n    def adicionar_carro(self, carro):\n        if isinstance(carro,Carro):\n            self.carros.append(carro)\n            print(f'Carro {carro} adicionado com sucesso a garagem!')\n        else:\n            raise TypeError('Você so pode adicionar objetos do tipo Carro!')\n    def remover_carro(self, carro):",
+        "detail": "Praticando.Ex12",
+        "documentation": {}
+    },
+    {
+        "label": "Livro",
+        "kind": 6,
+        "importPath": "Praticando.Ex13",
+        "description": "Praticando.Ex13",
+        "peekOfCode": "class Livro:\n    def __init__(self,nome,autor,numero_paginas):\n        self.nome=nome\n        self.autor=autor\n        self.numero_paginas=numero_paginas\n    def __str__(self):\n        return f'Nome do Livro: {self.nome}\\nAutor do Livro: {self.autor}\\nNumeros de Paginas: {self.numero_paginas}'\n    def __lt__(self,value):\n        if self.numero_paginas < value.numero_paginas:\n            print(f'O livro {value.nome} tem mais paginas que o Livro {self.nome}')",
+        "detail": "Praticando.Ex13",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "Praticando.Ex14",
+        "description": "Praticando.Ex14",
+        "peekOfCode": "class Produto:\n    def __init__(self,nome,preco,quantidade):\n        self.nome=nome\n        self.preco=preco\n        self.quatidade=quantidade\n    def __str__(self):\n        return f'Nome: {self.nome}\\nPreço: R${self.preco}\\nQuantidade em Estoque: {self.quatidade}'\n    @property\n    def preco(self):\n        return self.__preco",
+        "detail": "Praticando.Ex14",
+        "documentation": {}
+    },
+    {
+        "label": "Retangulo",
+        "kind": 6,
+        "importPath": "Praticando.Ex15",
+        "description": "Praticando.Ex15",
+        "peekOfCode": "class Retangulo:\n    def __init__(self,largura,altura):\n        self._largura=largura\n        self._altura=altura\n    def __str__(self):\n        return f'Largura: {self.largura}\\nAltura: {self.altura}'\n    @property\n    def largura(self):\n        return self._largura\n    @property",
+        "detail": "Praticando.Ex15",
+        "documentation": {}
+    },
+    {
+        "label": "ContaBancaria",
+        "kind": 6,
+        "importPath": "Praticando.EX16",
+        "description": "Praticando.EX16",
+        "peekOfCode": "class ContaBancaria:\n    def __init__(self,titular,saldo,numero_conta):\n        self._titular=titular\n        self._saldo= saldo\n        self._numero_conta=numero_conta\n    @property\n    def saldo(self):\n        return self._saldo\n    @saldo.setter\n    def saldo(self,valor):",
+        "detail": "Praticando.EX16",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "kind": 6,
+        "importPath": "Praticando.Ex17",
+        "description": "Praticando.Ex17",
+        "peekOfCode": "class Pessoa:\n    def __init__(self,nome):\n        self._nome=nome\n    @property\n    def nome(self):\n        return self._nome\n    @nome.setter\n    def nome(self,valor):\n        if not valor:\n            raise ValueError('O nome não pode ser vazio!')",
+        "detail": "Praticando.Ex17",
+        "documentation": {}
+    },
+    {
+        "label": "Triangulo",
+        "kind": 6,
+        "importPath": "Praticando.Ex18",
+        "description": "Praticando.Ex18",
+        "peekOfCode": "class Triangulo:\n    def __init__(self,base,altura):\n        self._base=base\n        self._altura=altura\n    @property\n    def base(self):\n        return self._base\n    @base.setter\n    def base(self,valor):\n        if valor <= 0:",
+        "detail": "Praticando.Ex18",
+        "documentation": {}
+    },
+    {
+        "label": "Livro",
+        "kind": 6,
+        "importPath": "Praticando.Ex19",
+        "description": "Praticando.Ex19",
+        "peekOfCode": "class Livro:\n    def __init__(self,titulo,autor):\n        self._titulo=titulo\n        self._autor=autor\n    @property\n    def titulo(self):\n        return self._titulo\n    @titulo.setter\n    def titulo(self,valor):\n        if not valor:",
+        "detail": "Praticando.Ex19",
+        "documentation": {}
+    },
+    {
+        "label": "meu_decorador",
+        "kind": 2,
+        "importPath": "Praticando.Ex2",
+        "description": "Praticando.Ex2",
+        "peekOfCode": "def meu_decorador(func):\n    def mostrar(*args, **kwargs):\n        print('Antes da função!')\n        result = func(*args, **kwargs)\n        print(f'Resultado: {result}')\n        print('Depois da função!')\n        return result\n    return mostrar\n@meu_decorador\ndef funcao(a,b):",
+        "detail": "Praticando.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "funcao",
+        "kind": 2,
+        "importPath": "Praticando.Ex2",
+        "description": "Praticando.Ex2",
+        "peekOfCode": "def funcao(a,b):\n    print(f'Dentro da função: a={a} | b={b}')\n    return a + b\nresultado=funcao(1,2)",
+        "detail": "Praticando.Ex2",
+        "documentation": {}
+    },
+    {
+        "label": "Salario",
+        "kind": 6,
+        "importPath": "Praticando.Ex20",
+        "description": "Praticando.Ex20",
+        "peekOfCode": "class Salario:\n    def __init__(self,salario_base,bonus):\n        self._salario_base=salario_base\n        self._bonus=bonus\n    @property\n    def salario_base(self):\n        return self._salario_base\n    @salario_base.setter\n    def salario_base(self,valor):\n        if valor <= 0:",
+        "detail": "Praticando.Ex20",
+        "documentation": {}
+    },
+    {
+        "label": "Usuario",
+        "kind": 6,
+        "importPath": "Praticando.Ex21",
+        "description": "Praticando.Ex21",
+        "peekOfCode": "class Usuario:\n    def __init__(self,email):\n        self._email=email\n    @property\n    def email(self):\n        return self._email\n    @email.setter\n    def email(self,valor):\n        if \"@\" not in valor or \".\" not in valor.split(\"@\")[-1]:\n            raise ValueError('Email inválido!')",
+        "detail": "Praticando.Ex21",
+        "documentation": {}
+    },
+    {
+        "label": "Pessoa",
+        "kind": 6,
+        "importPath": "Praticando.Ex22",
+        "description": "Praticando.Ex22",
+        "peekOfCode": "class Pessoa:\n    def __init__(self,nome,idade):\n        self.nome=nome\n        self._idade=idade\n    @property\n    def idade(self):\n        return self._idade\n    @idade.setter\n    def idade(self,valor):\n        if valor < 0:",
+        "detail": "Praticando.Ex22",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "Praticando.Ex23",
+        "description": "Praticando.Ex23",
+        "peekOfCode": "class Animal:\n    def __init__(self,nome,especie):\n        self.nome=nome\n        self.especie=especie\n    def __str__(self):\n        return f'Nome do Animal: {self.nome} | Especie: {self.especie}'\n    def emitir_som_gato(self):\n        print(f'O {self.especie} {self.nome} emitiu um som ....Miau Miau....')\n    def emitir_som_cachorro(self):\n        print(f'O {self.especie} {self.nome} emitiu um som...Au Au...')",
+        "detail": "Praticando.Ex23",
+        "documentation": {}
+    },
+    {
+        "label": "Funcionario",
+        "kind": 6,
+        "importPath": "Praticando.Ex24",
+        "description": "Praticando.Ex24",
+        "peekOfCode": "class Funcionario:\n    def __init__(self,nome,salario):\n        self.nome=nome\n        self.salario=salario\nclass Gerente(Funcionario):\n    def __init__(self, nome, salario,bonus):\n        super().__init__(nome, salario)\n        self.bonus=bonus\n    def salario_total(self):\n        return self.salario + self.bonus",
+        "detail": "Praticando.Ex24",
+        "documentation": {}
+    },
+    {
+        "label": "Gerente",
+        "kind": 6,
+        "importPath": "Praticando.Ex24",
+        "description": "Praticando.Ex24",
+        "peekOfCode": "class Gerente(Funcionario):\n    def __init__(self, nome, salario,bonus):\n        super().__init__(nome, salario)\n        self.bonus=bonus\n    def salario_total(self):\n        return self.salario + self.bonus\n    def __str__(self):\n        return f'Nome do Gerente: {self.nome}\\nSalario Sem Bonus: {self.salario}\\nBonus: {self.bonus}\\nSalario  Total: {self.salario_total()}'\nclass Assistente(Funcionario):\n    def __init__(self, nome, salario,horas):",
+        "detail": "Praticando.Ex24",
+        "documentation": {}
+    },
+    {
+        "label": "Assistente",
+        "kind": 6,
+        "importPath": "Praticando.Ex24",
+        "description": "Praticando.Ex24",
+        "peekOfCode": "class Assistente(Funcionario):\n    def __init__(self, nome, salario,horas):\n        super().__init__(nome, salario)\n        self.horas=horas\n    def bonus_horas(self):\n        return self.horas * 66\n    def __str__(self):\n        return f'Nome do Assistente(a): {self.nome}\\nSalario Sem Bonus: {self.salario}\\nBonus: {self.bonus_horas()}\\nSalario Total: {self.bonus_horas() + self.salario}' \nclass Empresa:\n    def __init__(self):",
+        "detail": "Praticando.Ex24",
+        "documentation": {}
+    },
+    {
+        "label": "Empresa",
+        "kind": 6,
+        "importPath": "Praticando.Ex24",
+        "description": "Praticando.Ex24",
+        "peekOfCode": "class Empresa:\n    def __init__(self):\n        self.funcionarios=[]\n    def contratar_funcionario(self,funcionario):\n        self.funcionarios.append(funcionario)\n        print(f'O Funcionario {funcionario} foi contratado!')\n    def demitir_funcionario(self,funcionario):\n        self.funcionarios.remove(funcionario)\n        print(f'O Funcionario {funcionario} foi demitido')\ngerente1=Gerente('Marcos',2400,500)",
+        "detail": "Praticando.Ex24",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "Praticando.Ex25",
+        "description": "Praticando.Ex25",
+        "peekOfCode": "class Produto:\n    def __init__(self,nome,preco,desconto):\n        self.nome=nome\n        self.preco=preco\n        self.desconto=desconto\n    @property\n    def preco_com_desconto(self):\n        return self.preco * (1-self.desconto)\n    def __str__(self):\n        return f'Nome do produto: {self.nome}\\nPreço do produto R$: {self.preco}\\nDesconto: {self.desconto*100}%'",
+        "detail": "Praticando.Ex25",
+        "documentation": {}
+    },
+    {
+        "label": "Jogo",
+        "kind": 6,
+        "importPath": "Praticando.Ex26",
+        "description": "Praticando.Ex26",
+        "peekOfCode": "class Jogo:\n    def __init__(self,min_num,max_num):\n        self.min_num=min_num\n        self.max_num=max_num\n        self.numero_secreto=random.randint(min_num,max_num)\n        self.tentativas=0\n    def tentar_adivinhar(self,palpite):\n        self.tentativas+=1\n        if palpite < self.numero_secreto:\n            return'Tente um numero maior...'",
+        "detail": "Praticando.Ex26",
+        "documentation": {}
+    },
+    {
+        "label": "Jogador",
+        "kind": 6,
+        "importPath": "Praticando.Ex26",
+        "description": "Praticando.Ex26",
+        "peekOfCode": "class Jogador:\n    def __init__(self,nome):\n        self.nome=nome\n        self.pontuacao=0\n    def incrementar_pontuacao(self):\n        self.pontuacao+=1\nnome=input('Digite o seu nome:')\njogador=Jogador(nome)\njogo=Jogo(1,100)\nprint('-'*40)",
+        "detail": "Praticando.Ex26",
+        "documentation": {}
+    },
+    {
+        "label": "Produto",
+        "kind": 6,
+        "importPath": "Praticando.Ex27",
+        "description": "Praticando.Ex27",
+        "peekOfCode": "class Produto:\n    def __init__(self,nome,preco):\n        self.nome=nome\n        self.preco=preco\n    def __str__(self):\n        return f'Nome : {self.nome} | Preço R$: {self.preco}'\nclass Estoque:\n    def __init__(self):\n        self.estoque=[]\n        self.carrinho=[]",
+        "detail": "Praticando.Ex27",
+        "documentation": {}
+    },
+    {
+        "label": "Estoque",
+        "kind": 6,
+        "importPath": "Praticando.Ex27",
+        "description": "Praticando.Ex27",
+        "peekOfCode": "class Estoque:\n    def __init__(self):\n        self.estoque=[]\n        self.carrinho=[]\n    def adicionar_carinho(self,produto):\n        if  produto in self.estoque:\n            print(f'{produto} adicinado com sucesso ao carrinho!')\n            self.carrinho.append(produto)\n        else:\n            return f'{produto} não encontrado !'",
+        "detail": "Praticando.Ex27",
+        "documentation": {}
+    },
+    {
+        "label": "produtos",
+        "kind": 5,
+        "importPath": "Praticando.Ex27",
+        "description": "Praticando.Ex27",
+        "peekOfCode": "produtos = [\n        Produto('Mouse       ', 100),\n        Produto('Teclado     ', 200),\n        Produto('Celular     ', 1250),\n        Produto('Tablet      ', 3260),\n        Produto('Nootebok    ', 7540),\n        Produto('Computador  ', 8960)\n    ]\nfor produto  in produtos:\n    estoque.adicionar_produto(produto)",
+        "detail": "Praticando.Ex27",
+        "documentation": {}
+    },
+    {
+        "label": "Hotel",
+        "kind": 6,
+        "importPath": "Praticando.Ex28",
+        "description": "Praticando.Ex28",
+        "peekOfCode": "class Hotel:\n    def __init__(self,numero_quarto,preco):\n        self.numero_quarto=numero_quarto\n        self.preco=preco\n    def __str__(self):\n        return f'Numero do quarto: {self.numero_quarto} | Preço R$: {self.preco}'\nclass Quarto:\n    def __init__(self):\n        self.quartos=[]\n        self.quartos_reservados=[]",
+        "detail": "Praticando.Ex28",
+        "documentation": {}
+    },
+    {
+        "label": "Quarto",
+        "kind": 6,
+        "importPath": "Praticando.Ex28",
+        "description": "Praticando.Ex28",
+        "peekOfCode": "class Quarto:\n    def __init__(self):\n        self.quartos=[]\n        self.quartos_reservados=[]\n    def adicionar_quarto(self,quarto):\n        self.quartos.append(quarto)\n    def remover_quarto(self,quarto):\n        if quarto in self.quartos:\n            self.quartos.remove(quarto)\n            print(f'Quarto N° removido  da lista de reservas')",
+        "detail": "Praticando.Ex28",
+        "documentation": {}
+    },
+    {
+        "label": "Cliente",
+        "kind": 6,
+        "importPath": "Praticando.Ex28",
+        "description": "Praticando.Ex28",
+        "peekOfCode": "class Cliente:\n    def __init__(self,nome,email):\n        self.nome=nome\n        self.email=email\n    def __str__(self):\n        return f'Nome: {self.nome} | Contato: {self.email}'\nquarto=Quarto()\nquartos = [\n        Hotel('456',160),\n        Hotel('854',160),",
+        "detail": "Praticando.Ex28",
+        "documentation": {}
+    },
+    {
+        "label": "quartos",
+        "kind": 5,
+        "importPath": "Praticando.Ex28",
+        "description": "Praticando.Ex28",
+        "peekOfCode": "quartos = [\n        Hotel('456',160),\n        Hotel('854',160),\n        Hotel('954',160),\n        Hotel('524',160),\n        Hotel('426',160)\n    ]\nfor q in quartos:\n    quarto.adicionar_quarto(q)\nprint('-'*40)",
+        "detail": "Praticando.Ex28",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar_json",
+        "kind": 2,
+        "importPath": "Praticando.Ex29",
+        "description": "Praticando.Ex29",
+        "peekOfCode": "def atualizar_json(caminho_arquivo,chave,novo_valor):\n    with open(caminho_arquivo,'r',encoding='utf-8') as arquivo:\n        dados= json.load(arquivo)\n        dados[chave]=novo_valor\n    with open(caminho_arquivo,'w',encoding='utf-8') as arquivo:\n        json.dump(dados,arquivo,ensure_ascii=False,indent=4)\ndados_exemplo={\n    \"nome\":\"João\",\n    \"idade\":35,\n    \"cidade\":\"São Paulo\",",
+        "detail": "Praticando.Ex29",
+        "documentation": {}
+    },
+    {
+        "label": "tempo_execucao",
+        "kind": 2,
+        "importPath": "Praticando.Ex3",
+        "description": "Praticando.Ex3",
+        "peekOfCode": "def tempo_execucao(func):\n    def mostrar(*args, **kwargs):\n        inicio=time.time()\n        fim=time.time()\n        result=func(*args, **kwargs)\n        print(f'Resultado: {result}')\n        print(f'Tempo de execução: {inicio-fim}')\n        return result\n    return mostrar\n@tempo_execucao",
+        "detail": "Praticando.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "estudar",
+        "kind": 2,
+        "importPath": "Praticando.Ex3",
+        "description": "Praticando.Ex3",
+        "peekOfCode": "def estudar(tempo):\n    print(f'Estudando por {tempo} Horas')\n    time.sleep(3)\n    print(f'Pausa para  o café')\nestudar(3)",
+        "detail": "Praticando.Ex3",
+        "documentation": {}
+    },
+    {
+        "label": "adicionar_json",
+        "kind": 2,
+        "importPath": "Praticando.Ex30",
+        "description": "Praticando.Ex30",
+        "peekOfCode": "def adicionar_json(caminho_arquivo,chave,novo_valor):\n    with open(caminho_arquivo,'r',encoding='utf-8') as arquivo:\n        dados=json.load(arquivo)\n    if chave in dados and isinstance(dados[chave],list):\n        dados[chave].append(novo_valor)\n    else:\n        dados[chave]=novo_valor\n    with open(caminho_arquivo,'w',encoding='utf-8') as arquivo:\n        json.dump(dados,arquivo,ensure_ascii=False,indent=4)\ndados_exemplo={",
+        "detail": "Praticando.Ex30",
+        "documentation": {}
+    },
+    {
+        "label": "mesclar_arquivos",
+        "kind": 2,
+        "importPath": "Praticando.Ex31",
+        "description": "Praticando.Ex31",
+        "peekOfCode": "def mesclar_arquivos(caminho1,caminho2,caminho_arquivo_saida):\n    with open(caminho1,'r',encoding='utf-8') as arquivo:\n        dados1=json.load(arquivo)\n    with open(caminho2,'r',encoding='utf-8') as arquivo:\n        dados2=json.load(arquivo)\n    dados_mesclados={**dados1,**dados2}\n    with open(caminho_arquivo_saida,'w',encoding='utf-8') as arquivo:\n        json.dump(dados_mesclados,arquivo,ensure_ascii=False,indent=4)\ndados_exemplo1={\n    \"nome\":\"João\",",
+        "detail": "Praticando.Ex31",
+        "documentation": {}
+    },
+    {
+        "label": "remover",
+        "kind": 2,
+        "importPath": "Praticando.Ex32",
+        "description": "Praticando.Ex32",
+        "peekOfCode": "def remover(caminho,chave):\n    with open(caminho,'r',encoding='utf-8') as arquivo:\n        dados=json.load(arquivo)\n        if chave in dados:\n            del dados[chave]\n    with open(caminho,'w',encoding='utf-8') as arquivo:\n        json.dump(dados,arquivo,ensure_ascii=False,indent=4)\ndados={\n    \"nome\":\"João\",\n    \"idade\":30,",
+        "detail": "Praticando.Ex32",
+        "documentation": {}
+    },
+    {
+        "label": "filtrar_dados",
+        "kind": 2,
+        "importPath": "Praticando.Ex33",
+        "description": "Praticando.Ex33",
+        "peekOfCode": "def filtrar_dados(caminho,chave,valor):\n    with open(caminho,'r',encoding='utf-8') as arquivo:\n        dados=json.load(arquivo)\n    dados_filtrados={k:v for k , v in dados.items() if v == valor}\n    caminho_arquivo_filtrado=r'C:\\Users\\Paulin\\Documents\\GitHub\\Python.Exercicios\\Praticando\\dados_filtrados.json'\n    with open(caminho_arquivo_filtrado,'w',encoding='utf-8') as arquivo:\n        json.dump(dados_filtrados,arquivo,ensure_ascii=False,indent=4)\n    return caminho_arquivo_filtrado\ndados={\n    \"nome\":\"Carlos\",",
+        "detail": "Praticando.Ex33",
+        "documentation": {}
+    },
+    {
+        "label": "meses",
+        "kind": 5,
+        "importPath": "Praticando.Ex38",
+        "description": "Praticando.Ex38",
+        "peekOfCode": "meses = [\n    \"Janeiro\", \"Fevereiro\", \"Março\", \"Abril\", \"Maio\", \"Junho\", \n    \"Julho\", \"Agosto\", \"Setembro\", \"Outubro\", \"Novembro\", \"Dezembro\"\n]\ndia=data_hoje.day\nmes=meses[data_hoje.month - 1]\nano=data_hoje.year\nhora=hora_hoje.hour\nminutos=hora_hoje.minute\nsegundos=hora_hoje.second",
+        "detail": "Praticando.Ex38",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_tipo",
+        "kind": 2,
+        "importPath": "Praticando.Ex4",
+        "description": "Praticando.Ex4",
+        "peekOfCode": "def verificar_tipo(tipo):\n    def decorador(func):\n        def mostrar(*args, **kwargs):\n            if all(isinstance(arg,tipo) for arg in args):\n                return func(*args, **kwargs)\n            else:\n                print('ERRO! Os argumentos tem que ser do mesmo tipo!')\n        return mostrar\n    return decorador\n@verificar_tipo(int)",
+        "detail": "Praticando.Ex4",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "Praticando.Ex4",
+        "description": "Praticando.Ex4",
+        "peekOfCode": "def somar(a,b):\n    return a + b\nprint(somar(1,2))\nprint(somar(1,'3'))",
+        "detail": "Praticando.Ex4",
+        "documentation": {}
+    },
+    {
+        "label": "repete",
+        "kind": 2,
+        "importPath": "Praticando.Ex5",
+        "description": "Praticando.Ex5",
+        "peekOfCode": "def repete(vezes):\n    def decorador(func):\n        def mostrar(*args, **kwargs):\n            for _ in range(vezes):\n                func(*args, **kwargs)\n        return mostrar\n    return decorador\n@repete(5)\ndef mensagem():\n    print('Ola estou repetindo!')",
+        "detail": "Praticando.Ex5",
+        "documentation": {}
+    },
+    {
+        "label": "mensagem",
+        "kind": 2,
+        "importPath": "Praticando.Ex5",
+        "description": "Praticando.Ex5",
+        "peekOfCode": "def mensagem():\n    print('Ola estou repetindo!')\nmensagem()",
+        "detail": "Praticando.Ex5",
+        "documentation": {}
+    },
+    {
+        "label": "verificar",
+        "kind": 2,
+        "importPath": "Praticando.Ex6",
+        "description": "Praticando.Ex6",
+        "peekOfCode": "def verificar(func):\n    def mostrar(*args, **kwargs):\n        if mostrar.autenticado == True:\n            func(*args, **kwargs)\n            print(f'Usuario Autenticado.Acesso Liberado.')\n        else:\n            print(f'Usuario não autenticado. Acesso Negado')\n            return\n    mostrar.autenticado= False\n    return mostrar",
+        "detail": "Praticando.Ex6",
+        "documentation": {}
+    },
+    {
+        "label": "acesso",
+        "kind": 2,
+        "importPath": "Praticando.Ex6",
+        "description": "Praticando.Ex6",
+        "peekOfCode": "def acesso():\n    print(f'Tentando acessar...')\nacesso()\nacesso.autenticado = True\nacesso()",
+        "detail": "Praticando.Ex6",
+        "documentation": {}
+    },
+    {
+        "label": "acesso.autenticado",
+        "kind": 5,
+        "importPath": "Praticando.Ex6",
+        "description": "Praticando.Ex6",
+        "peekOfCode": "acesso.autenticado = True\nacesso()",
+        "detail": "Praticando.Ex6",
+        "documentation": {}
+    },
+    {
+        "label": "memoria",
+        "kind": 2,
+        "importPath": "Praticando.Ex7",
+        "description": "Praticando.Ex7",
+        "peekOfCode": "def memoria(func):\n    cache={}\n    def mostrar(*args):\n        if args in cache:\n            print('Retornando do cache')\n            return cache[args]\n        result=func(*args)\n        cache[args]=result\n        return result\n    return mostrar",
+        "detail": "Praticando.Ex7",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "Praticando.Ex7",
+        "description": "Praticando.Ex7",
+        "peekOfCode": "def somar(a,b):\n    return a + b\nprint(f'Resultado da soma: {somar(1,2)}')\nprint(f'Resultado da soma: {somar(1,3)}')\nprint(f'Resultado da soma: {somar(2,3)}')\nprint(f'Resultado da soma: {somar(1,2)}')\nprint(f'Resultado da soma: {somar(1,3)}')",
+        "detail": "Praticando.Ex7",
+        "documentation": {}
+    },
+    {
+        "label": "decorador_com_retorno",
+        "kind": 2,
+        "importPath": "Praticando.Ex8",
+        "description": "Praticando.Ex8",
+        "peekOfCode": "def decorador_com_retorno(func):\n    def mostrar(*args, **kwargs):\n        resultado= func(*args, **kwargs) *2\n        print(f'Resultado da soma multiplicado: {resultado}')\n    return mostrar\n@decorador_com_retorno\ndef somar(a,b): \n    return a + b\nsomar(1,2)",
+        "detail": "Praticando.Ex8",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "Praticando.Ex8",
+        "description": "Praticando.Ex8",
+        "peekOfCode": "def somar(a,b): \n    return a + b\nsomar(1,2)",
+        "detail": "Praticando.Ex8",
+        "documentation": {}
+    },
+    {
+        "label": "contador_execuções",
+        "kind": 2,
+        "importPath": "Praticando.Ex9",
+        "description": "Praticando.Ex9",
+        "peekOfCode": "def contador_execuções(func):\n    def mostrar(*args, **kwargs):\n        mostrar.contador += 1\n        print(f\"A função {func.__name__}foi chamada {mostrar.contador} vezes\")\n        return func(*args, **kwargs)\n    mostrar.contador = 0\n    return mostrar\n@contador_execuções\ndef teste():\n    print('teste')",
+        "detail": "Praticando.Ex9",
+        "documentation": {}
+    },
+    {
+        "label": "teste",
+        "kind": 2,
+        "importPath": "Praticando.Ex9",
+        "description": "Praticando.Ex9",
+        "peekOfCode": "def teste():\n    print('teste')\nteste()\nteste()\nteste()",
+        "detail": "Praticando.Ex9",
+        "documentation": {}
+    },
+    {
+        "label": "Animal",
+        "kind": 6,
+        "importPath": "Praticando.Herança",
+        "description": "Praticando.Herança",
+        "peekOfCode": "class Animal:\n    def __init__(self,nome):\n        self.nome = nome\n    def fazer_som(self):\n        pass\n    def imprimirNome(self):\n        print(f'O nome do animal e : {self.nome}')\nclass Cachorro(Animal):\n    def fazer_som(self):\n        return 'Au Au'",
+        "detail": "Praticando.Herança",
+        "documentation": {}
+    },
+    {
+        "label": "Cachorro",
+        "kind": 6,
+        "importPath": "Praticando.Herança",
+        "description": "Praticando.Herança",
+        "peekOfCode": "class Cachorro(Animal):\n    def fazer_som(self):\n        return 'Au Au'\nclass Gato(Animal):\n    def fazer_som(self):\n        return 'Miau Miau'\nclass Pardal(Animal):\n    def fazer_som(self):\n        return 'Piu Piu'\n#cachorro= Cachorro('Clebin')",
+        "detail": "Praticando.Herança",
+        "documentation": {}
+    },
+    {
+        "label": "Gato",
+        "kind": 6,
+        "importPath": "Praticando.Herança",
+        "description": "Praticando.Herança",
+        "peekOfCode": "class Gato(Animal):\n    def fazer_som(self):\n        return 'Miau Miau'\nclass Pardal(Animal):\n    def fazer_som(self):\n        return 'Piu Piu'\n#cachorro= Cachorro('Clebin')\n#gato= Gato('Junim')\n#pardal=Pardal('Pardal')\n#print(f'{cachorro.nome} faz: {cachorro.fazer_som()}')",
+        "detail": "Praticando.Herança",
+        "documentation": {}
+    },
+    {
+        "label": "Pardal",
+        "kind": 6,
+        "importPath": "Praticando.Herança",
+        "description": "Praticando.Herança",
+        "peekOfCode": "class Pardal(Animal):\n    def fazer_som(self):\n        return 'Piu Piu'\n#cachorro= Cachorro('Clebin')\n#gato= Gato('Junim')\n#pardal=Pardal('Pardal')\n#print(f'{cachorro.nome} faz: {cachorro.fazer_som()}')\n#print(f'{gato.nome} faz: { gato.fazer_som()}')\n#print(f'{pardal.nome} faz: {pardal.fazer_som()}')\n#cachorro.imprimirNome()",
+        "detail": "Praticando.Herança",
+        "documentation": {}
+    },
+    {
+        "label": "fazer_barulho",
+        "kind": 2,
+        "importPath": "Praticando.Herança",
+        "description": "Praticando.Herança",
+        "peekOfCode": "def fazer_barulho(animal):\n    print(f'{animal.nome} faz: {animal.fazer_som()}')\ncachorro= Cachorro('Clebin')\ngato= Gato('Junim')\npardal=Pardal('Pardal')\nfazer_barulho(cachorro)\nfazer_barulho(gato)\nfazer_barulho(pardal)",
+        "detail": "Praticando.Herança",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_senha",
+        "kind": 2,
+        "importPath": "Praticando.senha",
+        "description": "Praticando.senha",
+        "peekOfCode": "def verificar_senha(nova_senha):\n    if len(nova_senha) > 6 :\n        print(f'Senha {nova_senha} Válida')\n    else:\n        print(f'Senha {nova_senha} invalida!')",
+        "detail": "Praticando.senha",
+        "documentation": {}
+    },
+    {
+        "label": "fuso_horario",
+        "kind": 5,
+        "importPath": "Praticando.teste",
+        "description": "Praticando.teste",
+        "peekOfCode": "fuso_horario = timezone(timedelta(hours=-3))\n# Obtendo a data e hora atuais com fuso horário\nhora_hoje = datetime.now(fuso_horario)\n# Extraindo o fuso horário\nfuso_formatado = hora_hoje.strftime('%Z')\n# Obtendo o nome do fuso horário local\nnome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")",
+        "detail": "Praticando.teste",
+        "documentation": {}
+    },
+    {
+        "label": "hora_hoje",
+        "kind": 5,
+        "importPath": "Praticando.teste",
+        "description": "Praticando.teste",
+        "peekOfCode": "hora_hoje = datetime.now(fuso_horario)\n# Extraindo o fuso horário\nfuso_formatado = hora_hoje.strftime('%Z')\n# Obtendo o nome do fuso horário local\nnome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")",
+        "detail": "Praticando.teste",
+        "documentation": {}
+    },
+    {
+        "label": "fuso_formatado",
+        "kind": 5,
+        "importPath": "Praticando.teste",
+        "description": "Praticando.teste",
+        "peekOfCode": "fuso_formatado = hora_hoje.strftime('%Z')\n# Obtendo o nome do fuso horário local\nnome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")",
+        "detail": "Praticando.teste",
+        "documentation": {}
+    },
+    {
+        "label": "nome_fuso_horario",
+        "kind": 5,
+        "importPath": "Praticando.teste",
+        "description": "Praticando.teste",
+        "peekOfCode": "nome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")",
+        "detail": "Praticando.teste",
+        "documentation": {}
+    },
+    {
+        "label": "leitor_csv",
+        "kind": 2,
+        "importPath": "Projeto Prático.Ex1",
+        "description": "Projeto Prático.Ex1",
+        "peekOfCode": "def leitor_csv(caminho):\n    data = []\n    try:\n        with open(caminho, 'r', encoding='utf-8') as arquivo:\n            csv_reader = csv.reader(arquivo)\n            header = next(csv_reader)\n            for row in csv_reader:\n                data.append(row)\n    except FileNotFoundError:\n        print(f'O arquivo -->> {caminho} <<-- não foi encontrado!')            ",
+        "detail": "Projeto Prático.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "media_dos_valores",
+        "kind": 2,
+        "importPath": "Projeto Prático.Ex1",
+        "description": "Projeto Prático.Ex1",
+        "peekOfCode": "def media_dos_valores(data,coluna):\n    try:\n        values = [float(row[coluna]) for row in data if row[coluna]]\n        media = sum(values) / len(values)\n    except ZeroDivisionError:\n        print('Divisão por zero ao calcular a média (nenhum dado na coluna).')\n        media = None\n    except ValueError:\n        print(\"Erro ao converter os valores para float.\")\n        media = None",
+        "detail": "Projeto Prático.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "novo_arquivo",
+        "kind": 2,
+        "importPath": "Projeto Prático.Ex1",
+        "description": "Projeto Prático.Ex1",
+        "peekOfCode": "def novo_arquivo(novo_arquivo, header, data):\n    try:\n        with open(novo_arquivo, mode='w',encoding='utf-8', newline='') as arquivo:\n            csv_writer = csv.writer(arquivo)\n            csv_writer.writerow(header)\n            csv_writer.writerows(data)\n    except Exception as e:\n        print(f'Ocorreu um erro ao escrever o arquivo: {e}')\ndef main():\n    input_file = r'C:\\Users\\Paulin\\Documents\\GitHub\\Python.Exercicios\\Projeto Prático\\dados.csv'",
+        "detail": "Projeto Prático.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Projeto Prático.Ex1",
+        "description": "Projeto Prático.Ex1",
+        "peekOfCode": "def main():\n    input_file = r'C:\\Users\\Paulin\\Documents\\GitHub\\Python.Exercicios\\Projeto Prático\\dados.csv'\n    output_file = r'C:\\Users\\Paulin\\Documents\\GitHub\\Python.Exercicios\\Projeto Prático\\resultado.csv'\n    header, data = leitor_csv(input_file)\n    if not data:\n        print('Nenhum dado foi lido do arquivo')\n        return\n    try:\n        column_index = header.index('   idade')\n    except ValueError:",
+        "detail": "Projeto Prático.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "Personagem",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Personagem:\n    def __init__(self, nome):\n        self.nome = nome\n        self.vida = 100\n        self.ataque = 10\n        self.moedas = 50\n        self.nivel = 1\n        self.alcance = 5\n        self.magia = 5\n        self.defesa = 5",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Guerreiro",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Guerreiro(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.ataque += 5\n        self.alcance -= 3\n        self.defesa += 5\n    def usar_espada(self):\n        print(f'{self.nome} usou a espada!')\n#classe mago e funções da classe\nclass Mago(Personagem):",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Mago",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Mago(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.ataque += 3\n        self.alcance += 4\n        self.defesa -= 2\n    def usar_magia(self):\n        print(f'{self.nome} usou a magia bola de fogo!')\n#classe arqueiro e funções da classe\nclass Arqueiro(Personagem):",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Arqueiro",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Arqueiro(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.ataque += 3\n        self.alcance += 7\n        self.defesa -= 2\n    def usar_arco(self):\n        print(f'{self.nome} usou o arco e jogou uma flecha!')\n#classe  curandeiro e funções da classe\nclass Curandeiro(Personagem):",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Curandeiro",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Curandeiro(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.defesa += 5\n        self.alcance -= 1\n        self.ataque -= 1\n    def curar(self, alvo: Personagem):\n        alvo.vida += 10\n        print(f'{self.nome} curou {alvo.nome}')\n#classe para criar o inimgo e algumas funções como atacar, e sofrer dano do jogador",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Inimigo",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Inimigo:\n    def __init__(self, nome, ataque, xp, moedas):\n        self.nome = nome\n        self.vida = 100\n        self.ataque = ataque\n        self.xp = xp\n        self.moedas = moedas\n    def atacar(self, alvo: Personagem):\n        chance_de_esquivar = random.randint(1, 100)\n        if chance_de_esquivar <= 30:",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Boss",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Boss:\n    def __init__(self, nome, ataque, xp, moedas):\n        self.nome = nome\n        self.vida = 1000\n        self.ataque = ataque\n        self.xp = xp\n        self.moedas = moedas\n    def atacar(self, alvo: Personagem):\n        chance_de_esquivar = random.randint(1, 100)\n        if chance_de_esquivar <= 20:",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Item:\n    def __init__(self, nome, custo, efeito):\n        self.nome = nome\n        self.custo = custo\n        self.efeito = efeito\n    def usar(self, personagem: Personagem):\n        raise NotImplementedError('Use a subclasse específica do item')\n#classe para criar a poção e funçoes de adicionar vida\nclass PocaoDeVida(Item):\n    def __init__(self):",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "PocaoDeVida",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class PocaoDeVida(Item):\n    def __init__(self):\n        super().__init__('Poção De Vida', 10, 'Restaura 20 pontos de vida')\n    def usar(self, personagem: Personagem):\n        personagem.vida += 20\n        print(f'{Fore.GREEN}{personagem.nome} restaurou 20 pontos de vida!{Style.RESET_ALL}')\n#classe para criar a espada e funções  de adicionar ataque ao player\nclass Nichirin(Item):\n    def __init__(self):\n        super().__init__('Nichirin', 20, '+25 ataque')",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Nichirin",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Nichirin(Item):\n    def __init__(self):\n        super().__init__('Nichirin', 20, '+25 ataque')\n    def usar(self, personagem: Personagem):\n        personagem.ataque += 25\n        print(f'{Fore.GREEN}{personagem.nome} equipou Nichirin e aumentou seu ataque em 25 pontos!{Style.RESET_ALL}')\n#classe para criar a espada mais forte e funções de adicionar ataque ao player\nclass KatanaWakizashi(Item):\n    def __init__(self):\n        super().__init__('Katana Wakizashi', 300, '+100 ataque')",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "KatanaWakizashi",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class KatanaWakizashi(Item):\n    def __init__(self):\n        super().__init__('Katana Wakizashi', 300, '+100 ataque')\n    def usar(self, personagem: Personagem):\n        personagem.ataque += 100\n        print(f'{Fore.GREEN}{personagem.nome} equipou Katana Wakizashi e aumentou seu ataque em 100 pontos!{Style.RESET_ALL}')\n#classe para criar o esscudo e funções de adicionar defesa ao player\nclass EscudoBasico(Item):\n    def __init__(self):\n        super().__init__('Escudo Básico', 20, '+15 Defesa')",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "EscudoBasico",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class EscudoBasico(Item):\n    def __init__(self):\n        super().__init__('Escudo Básico', 20, '+15 Defesa')\n    def usar(self, personagem: Personagem):\n        personagem.defesa += 15\n        print(f'{Fore.GREEN}{personagem.nome} equipou o Escudo Básico e aumentou sua defesa em 15 pontos!{Style.RESET_ALL}')\n#classe para criar o escudo e funções de adicionar magia ao player\nclass AmuletoDeMagia(Item):\n    def __init__(self):\n        super().__init__('Amuleto De Magia', 20, '+15 magia')",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "AmuletoDeMagia",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class AmuletoDeMagia(Item):\n    def __init__(self):\n        super().__init__('Amuleto De Magia', 20, '+15 magia')\n    def usar(self, personagem: Personagem):\n        personagem.magia += 15\n        print(f'{Fore.GREEN}{personagem.nome} equipou o Amuleto De Magia e aumentou sua magia em 15 pontos!{Style.RESET_ALL}')\n#classe para criar botas e funções de adicionar alcance ao player\nclass BotasDeAgilidade(Item):\n    def __init__(self):\n        super().__init__('Botas De Agilidade', 20, '+5 alcance')",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "BotasDeAgilidade",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class BotasDeAgilidade(Item):\n    def __init__(self):\n        super().__init__('Botas De Agilidade', 20, '+5 alcance')\n    def usar(self, personagem: Personagem):\n        personagem.alcance += 5\n        print(f'{Fore.GREEN}{personagem.nome} equipou as Botas De Agilidade e aumentou seu alcance em 5 pontos!{Style.RESET_ALL}')\n#classe para mostrar a lojinha ao player e os itens que foram criados\nclass Loja:\n    def __init__(self):\n        self.itens = [",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Loja",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Loja:\n    def __init__(self):\n        self.itens = [\n            PocaoDeVida(),\n            Nichirin(),\n            KatanaWakizashi(),\n            EscudoBasico(),\n            AmuletoDeMagia(),\n            BotasDeAgilidade()\n        ]",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Arena",
+        "kind": 6,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "class Arena:\n    def __init__(self, personagem):\n        self.personagem = personagem\n    def batalha(self, inimigo):\n        print(f'{Fore.CYAN}Você encontrou um {inimigo.nome}! O que deseja fazer?{Style.RESET_ALL}')\n        while inimigo.vida > 0 and self.personagem.vida > 0:\n            print('-'*50)\n            print(f'{Fore.LIGHTGREEN_EX}    [A] Atacar     {Style.RESET_ALL}|{Fore.LIGHTRED_EX}     [B] Fugir {Style.RESET_ALL}')\n            print('-'*50)\n            acao = input(f'{Fore.LIGHTCYAN_EX}=>>{Style.RESET_ALL}').upper()",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "arena",
+        "kind": 5,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "arena = Arena(personagem)\ninimigo = Inimigo('Goblin', 15, 50, 100)\narena.batalha(inimigo)\nif personagem.vida > 0:\n    sleep(2)\n    print('-'*50)\n    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')\n    print('-'*50)\n    sleep(3)\n    mensagem= f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}'",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "inimigo",
+        "kind": 5,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "inimigo = Inimigo('Goblin', 15, 50, 100)\narena.batalha(inimigo)\nif personagem.vida > 0:\n    sleep(2)\n    print('-'*50)\n    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')\n    print('-'*50)\n    sleep(3)\n    mensagem= f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}'\n    centro= mensagem.center(50)",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "arena",
+        "kind": 5,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "arena = Arena(personagem)\ninimigo = Inimigo('Lobo', 20, 75, 125)\narena.batalha(inimigo)\nif personagem.vida > 0:\n    sleep(2)\n    print('-'*50)\n    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')\n    print('-'*50)\n    sleep(3)\nsleep(2)",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "inimigo",
+        "kind": 5,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "inimigo = Inimigo('Lobo', 20, 75, 125)\narena.batalha(inimigo)\nif personagem.vida > 0:\n    sleep(2)\n    print('-'*50)\n    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')\n    print('-'*50)\n    sleep(3)\nsleep(2)\narena = Arena(personagem)",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "arena",
+        "kind": 5,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "arena = Arena(personagem)\ninimigo = Inimigo('Porco', 10, 45, 75)\narena.batalha(inimigo)\nif personagem.vida > 0:\n    sleep(2)\n    print('-'*50)\n    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')\n    sleep(3)\n    print('-'*50)\n    print(f'{Fore.GREEN}Você encontrou uma lojinha!{Style.RESET_ALL}')",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "inimigo",
+        "kind": 5,
+        "importPath": "rpg.rpg",
+        "description": "rpg.rpg",
+        "peekOfCode": "inimigo = Inimigo('Porco', 10, 45, 75)\narena.batalha(inimigo)\nif personagem.vida > 0:\n    sleep(2)\n    print('-'*50)\n    print(f'{Fore.LIGHTBLUE_EX}{personagem.nome} voltou a explorar o mundo....{Style.RESET_ALL}')\n    sleep(3)\n    print('-'*50)\n    print(f'{Fore.GREEN}Você encontrou uma lojinha!{Style.RESET_ALL}')\n    print('-'*50)",
+        "detail": "rpg.rpg",
+        "documentation": {}
+    },
+    {
+        "label": "Personagem",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Personagem:\n    def __init__(self, nome):\n        self.nome = nome\n        self.vida = 100\n        self.ataque = 10\n        self.moedas = 50\n        self.nivel = 1\n        self.alcance = 5\n        self.magia = 5\n        self.defesa = 5",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Guerreiro",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Guerreiro(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.ataque += 5\n        self.alcance -= 3\n        self.defesa += 5\n    def usar_espada(self):\n        print(f'{self.nome} usou a espada!')\n#classe mago e funções da classe\nclass Mago(Personagem):",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Mago",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Mago(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.ataque += 3\n        self.alcance += 4\n        self.defesa -= 2\n    def usar_magia(self):\n        print(f'{self.nome} usou a magia bola de fogo!')\n#classe arqueiro e funções da classe\nclass Arqueiro(Personagem):",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Arqueiro",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Arqueiro(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.ataque += 3\n        self.alcance += 7\n        self.defesa -= 2\n    def usar_arco(self):\n        print(f'{self.nome} usou o arco e jogou uma flecha!')\n#classe  curandeiro e funções da classe\nclass Curandeiro(Personagem):",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Curandeiro",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Curandeiro(Personagem):\n    def __init__(self, nome):\n        super().__init__(nome)\n        self.defesa += 5\n        self.alcance -= 1\n        self.ataque -= 1\n    def curar(self, alvo: Personagem):\n        alvo.vida += 10\n        print(f'{self.nome} curou {alvo.nome}')\n#classe para criar o inimgo e algumas funções como atacar, e sofrer dano do jogador",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Inimigo",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Inimigo:\n    def __init__(self, nome, ataque, xp, moedas):\n        self.nome = nome\n        self.vida = 100\n        self.ataque = ataque\n        self.xp = xp\n        self.moedas = moedas\n    def atacar(self, alvo: Personagem):\n        chance_de_esquivar = random.randint(1, 100)\n        if chance_de_esquivar <= 30:",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Boss",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Boss:\n    def __init__(self, nome, ataque, xp, moedas):\n        self.nome = nome\n        self.vida = 1000\n        self.ataque = ataque\n        self.xp = xp\n        self.moedas = moedas\n    def atacar(self, alvo: Personagem):\n        chance_de_esquivar = random.randint(1, 100)\n        if chance_de_esquivar <= 20:",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Item:\n    def __init__(self, nome, custo, efeito):\n        self.nome = nome\n        self.custo = custo\n        self.efeito = efeito\n    def usar(self, personagem: Personagem):\n        raise NotImplementedError('Use a subclasse específica do item')\n#classe para criar a poção e funçoes de adicionar vida\nclass PocaoDeVida(Item):\n    def __init__(self):",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "PocaoDeVida",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class PocaoDeVida(Item):\n    def __init__(self):\n        super().__init__('Poção De Vida', 10, 'Restaura 20 pontos de vida')\n    def usar(self, personagem: Personagem):\n        personagem.vida += 20\n        print(f'{Fore.GREEN}{personagem.nome} restaurou 20 pontos de vida!{Style.RESET_ALL}')\n#classe para criar a espada e funções  de adicionar ataque ao player\nclass Nichirin(Item):\n    def __init__(self):\n        super().__init__('Nichirin', 20, '+25 ataque')",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Nichirin",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Nichirin(Item):\n    def __init__(self):\n        super().__init__('Nichirin', 20, '+25 ataque')\n    def usar(self, personagem: Personagem):\n        personagem.ataque += 25\n        print(f'{Fore.GREEN}{personagem.nome} equipou Nichirin e aumentou seu ataque em 25 pontos!{Style.RESET_ALL}')\n#classe para criar a espada mais forte e funções de adicionar ataque ao player\nclass KatanaWakizashi(Item):\n    def __init__(self):\n        super().__init__('Katana Wakizashi', 300, '+100 ataque')",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "KatanaWakizashi",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class KatanaWakizashi(Item):\n    def __init__(self):\n        super().__init__('Katana Wakizashi', 300, '+100 ataque')\n    def usar(self, personagem: Personagem):\n        personagem.ataque += 100\n        print(f'{Fore.GREEN}{personagem.nome} equipou Katana Wakizashi e aumentou seu ataque em 100 pontos!{Style.RESET_ALL}')\n#classe para criar o esscudo e funções de adicionar defesa ao player\nclass EscudoBasico(Item):\n    def __init__(self):\n        super().__init__('Escudo Básico', 20, '+15 Defesa')",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "EscudoBasico",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class EscudoBasico(Item):\n    def __init__(self):\n        super().__init__('Escudo Básico', 20, '+15 Defesa')\n    def usar(self, personagem: Personagem):\n        personagem.defesa += 15\n        print(f'{Fore.GREEN}{personagem.nome} equipou o Escudo Básico e aumentou sua defesa em 15 pontos!{Style.RESET_ALL}')\n#classe para criar o escudo e funções de adicionar magia ao player\nclass AmuletoDeMagia(Item):\n    def __init__(self):\n        super().__init__('Amuleto De Magia', 20, '+15 magia')",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "AmuletoDeMagia",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class AmuletoDeMagia(Item):\n    def __init__(self):\n        super().__init__('Amuleto De Magia', 20, '+15 magia')\n    def usar(self, personagem: Personagem):\n        personagem.magia += 15\n        print(f'{Fore.GREEN}{personagem.nome} equipou o Amuleto De Magia e aumentou sua magia em 15 pontos!{Style.RESET_ALL}')\n#classe para criar botas e funções de adicionar alcance ao player\nclass BotasDeAgilidade(Item):\n    def __init__(self):\n        super().__init__('Botas De Agilidade', 20, '+5 alcance')",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "BotasDeAgilidade",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class BotasDeAgilidade(Item):\n    def __init__(self):\n        super().__init__('Botas De Agilidade', 20, '+5 alcance')\n    def usar(self, personagem: Personagem):\n        personagem.alcance += 5\n        print(f'{Fore.GREEN}{personagem.nome} equipou as Botas De Agilidade e aumentou seu alcance em 5 pontos!{Style.RESET_ALL}')\n#classe para mostrar a lojinha ao player e os itens que foram criados\nclass Loja:\n    def __init__(self):\n        self.itens = [",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Loja",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Loja:\n    def __init__(self):\n        self.itens = [\n            PocaoDeVida(),\n            Nichirin(),\n            KatanaWakizashi(),\n            EscudoBasico(),\n            AmuletoDeMagia(),\n            BotasDeAgilidade()\n        ]",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "Arena",
+        "kind": 6,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "class Arena:\n    def __init__(self, personagem):\n        self.personagem = personagem\n    def batalha(self, inimigo):\n        print('-'*50)\n        print(f'{Fore.CYAN}Você encontrou um {inimigo.nome}! O que deseja fazer?{Style.RESET_ALL}')\n        while inimigo.vida > 0 and self.personagem.vida > 0:\n            print('-'*50)\n            print(f'{Fore.LIGHTGREEN_EX}    [A] Atacar     {Style.RESET_ALL}|{Fore.LIGHTRED_EX}     [B] Fugir {Style.RESET_ALL}')\n            print('-'*50)",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "loja_mundo",
+        "kind": 2,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "def loja_mundo():\n    personagem.explorar()\n    print('-'*50)\n    print(f'{Fore.GREEN}Você encontrou uma lojinha!{Style.RESET_ALL}')\n    print('-'*50)\n    print(f'{Fore.LIGHTCYAN_EX}Entrando na loja.....{Style.RESET_ALL}')\n    sleep(2)\n    loja = Loja()\n    while True:\n        loja.mostrar_itens(personagem)",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "bosses",
+        "kind": 2,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "def bosses():\n    bosses = [\n    Boss('Ogro', 25, 300, 200),\n    Boss('Malenia', 24, 500, 250),\n    Boss('Hydra', 30, 600, 300),\n    Boss('Ciclope', 30, 200, 150),\n]\n    mensagem= f'{Fore.RED}!!! BOSS !!!{Style.RESET_ALL}'\n    centro= mensagem.center(50)\n    print(centro)",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "inimigos",
+        "kind": 2,
+        "importPath": "rpg.rpg_teste",
+        "description": "rpg.rpg_teste",
+        "peekOfCode": "def inimigos():\n    inimigos = [\n    Inimigo('Goblin', 8, 20, 10),\n    Inimigo('Troll', 12, 40, 20),\n    Inimigo('Lobo', 15, 50, 25),\n    Inimigo('Dragão', 30, 200, 70),\n    Inimigo('Esqueleto', 20, 75, 35),\n    Inimigo('Goblin atirador', 15, 50, 25),\n    Inimigo('Batedor de Argila', 35, 250, 100)\n]",
+        "detail": "rpg.rpg_teste",
+        "documentation": {}
+    },
+    {
+        "label": "dividir",
+        "kind": 2,
+        "importPath": "Tratamento de Erros.Ex1",
+        "description": "Tratamento de Erros.Ex1",
+        "peekOfCode": "def dividir(n1,n2):\n    try:\n        resutado=n1/n2\n    except ZeroDivisionError:\n        return '-->> Error! Divisão por zero não e permitida! <<--'\n    except TypeError:\n        return '-->> Error! Digite um valor valido! <<--'\n    else:\n        return f'Resultado: {resutado}'\n    finally:",
+        "detail": "Tratamento de Erros.Ex1",
+        "documentation": {}
+    },
+    {
+        "label": "ler_numeros_arquivo",
+        "kind": 2,
+        "importPath": "Tratamento de Erros.Ex2",
+        "description": "Tratamento de Erros.Ex2",
+        "peekOfCode": "def ler_numeros_arquivo(caminho):\n    numeros=[]\n    try:\n        with open (caminho,'r',encoding='utf-8') as arquivo:\n            linhas=arquivo.readlines()\n            if not linhas:\n                raise ValueError ('O arquivo está vazio')\n            for linha in linhas:\n                try:\n                    numero=float(linha.strip())",
+        "detail": "Tratamento de Erros.Ex2",
+        "documentation": {}
+    }
+]
