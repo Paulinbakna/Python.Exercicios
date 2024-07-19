@@ -28,3 +28,9 @@ print(f'Ano: {ano}')
 #Obtenha a hora no formato de 12 horas (AM/PM) da hora atual
 hora=data.strftime('%I:%M:%S %p')
 print(f'Hora no formato de 12 horas: {hora}')
+
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#Obtenha o minuto da hora atual
+minuto=data.minute
+print(f'Minuto da Hora Atual: {minuto}')
