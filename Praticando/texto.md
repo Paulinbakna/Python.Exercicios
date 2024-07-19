@@ -1,7 +1,7 @@
-5. Datas e horários em diferentes fusos horários:
+6. Extraindo informações de datas e horários:
 
-Converta a data e hora atuais para o fuso horário UTC+0 (Londres).
-
-Crie uma variável que represente a data e hora em Nova York (fuso horário UTC-5).
-
-Converta a variável de Nova York para o fuso horário local.
+Obtenha o dia da semana da data de hoje.
+Obtenha o número do mês da data de hoje.
+Obtenha o ano da data de hoje.
+Obtenha a hora no formato de 12 horas (AM/PM) da hora atual.
+Obtenha o minuto da hora atual.
