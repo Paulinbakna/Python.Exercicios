@@ -75,3 +75,32 @@ for caminho,diretorio,arquivos in os.walk(os.getcwd()):
     print(diretorio)
     print(arquivos)
     
+#============================================================================
+
+#mostra o nome da pasta que voce esta
+print(os.path.basename(os.getcwd()))
+
+#============================================================================
+
+#mostra o caminho que e sempre comum de aparecer 
+caminho1=r'C:\Users\Paulin\Downloads\TESTE'
+caminho2=r'C:\Users\Paulin\Downloads'
+os.path.commonpath([caminho1,caminho2])
+
+#============================================================================
+
+#motra o caminho que e sempre comum de aparecer mais o prefixo 
+print(os.path.commonprefix([caminho1,caminho2]))
+
+#============================================================================
+
+#mostrao cmainho da penultima pasta 
+print(os.path.dirname(caminho1))
+
+#============================================================================
+
+#Cria um caminho personalizado
+drive='C:'
+usuario='Paulin'
+pasta_base='Downloads'
+caminho_personalizado=os.path.join(drive,r'\Users',usuario,pasta_base)
