@@ -27,7 +27,7 @@ print(os.getcwd())
 #============================================================================
 
 #Cria uma pasta no local especificado pelo chdir
-#os.mkdir('TESTE') (comentado pois toda vez que execuatar ira criar uma pasta)
+os.mkdir('TESTE') 
 
 #============================================================================
 
@@ -37,35 +37,30 @@ print(os.listdir())
 #============================================================================
 
 #Cria varias pastas nrcessitando so do local que elas serao armazenadas
-#(Comentado para evitar a criação de varias pastas)
-#caminho=r'C:\Users\Paulin\Downloads\TESTE\Testando\Testando2\Testando3'
-#os.makedirs(caminho)
-#print(os.listdir())
+caminho=r'C:\Users\Paulin\Downloads\TESTE\Testando\Testando2\Testando3'
+os.makedirs(caminho)
+print(os.listdir())
 
 #============================================================================
 
 #exclui pastas porem somente se elas estiverem vazias
-#Comentado para evitar erros
-#os.rmdir(r'C:\Users\Paulin\Downloads\TESTE\Testando')
+os.rmdir(r'C:\Users\Paulin\Downloads\TESTE\Testando')
 
 #============================================================================
 
 #Abri arquivos passando o diretorio e o nome do arquivo que deseja abrir
-#Comentado para evitar erros
-#os.startfile(r'C:\Users\Paulin\Downloads\TESTE\arquivo.txt')
+os.startfile(r'C:\Users\Paulin\Downloads\TESTE\arquivo.txt')
 
 #============================================================================
 
 #Renomeia o nome de um arquivo
-#Comentado para evitar erros
-os.chdir(r'C:\Users\Paulin\Downloads\TESTE')                                                                                          
-#os.rename('arquivo.txt','apenas_um_teste.txt')
+os.chdir(r'C:\Users\Paulin\Downloads\TESTE')
+os.rename('arquivo.txt','apenas_um_teste.txt')
 
 #============================================================================
 
 #Remove um arquivo
-#Comentado para evitar erros
-#os.remove('apenas_um_teste.txt')
+os.remove('apenas_um_teste.txt')
 
 #============================================================================
 
@@ -94,7 +89,7 @@ print(os.path.commonprefix([caminho1,caminho2]))
 
 #============================================================================
 
-#mostrao cmainho da penultima pasta 
+#mostra o caminho da penultima pasta 
 print(os.path.dirname(caminho1))
 
 #============================================================================
