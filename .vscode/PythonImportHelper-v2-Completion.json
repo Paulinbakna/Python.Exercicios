@@ -273,7 +273,7 @@
         "documentation": {}
     },
     {
-        "label": "timezone",
+        "label": "time",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -281,11 +281,12 @@
         "documentation": {}
     },
     {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "os",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "datetime",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
@@ -1608,42 +1609,6 @@
         "description": "Praticando.senha",
         "peekOfCode": "def verificar_senha(nova_senha):\n    if len(nova_senha) > 6 :\n        print(f'Senha {nova_senha} Válida')\n    else:\n        print(f'Senha {nova_senha} invalida!')",
         "detail": "Praticando.senha",
-        "documentation": {}
-    },
-    {
-        "label": "fuso_horario",
-        "kind": 5,
-        "importPath": "Praticando.teste",
-        "description": "Praticando.teste",
-        "peekOfCode": "fuso_horario = timezone(timedelta(hours=-3))\n# Obtendo a data e hora atuais com fuso horário\nhora_hoje = datetime.now(fuso_horario)\n# Extraindo o fuso horário\nfuso_formatado = hora_hoje.strftime('%Z')\n# Obtendo o nome do fuso horário local\nnome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")\n5. Datas e horários em diferentes fusos horários:\nConverta a data e hora atuais para o fuso horário UTC+0 (Londres).",
-        "detail": "Praticando.teste",
-        "documentation": {}
-    },
-    {
-        "label": "hora_hoje",
-        "kind": 5,
-        "importPath": "Praticando.teste",
-        "description": "Praticando.teste",
-        "peekOfCode": "hora_hoje = datetime.now(fuso_horario)\n# Extraindo o fuso horário\nfuso_formatado = hora_hoje.strftime('%Z')\n# Obtendo o nome do fuso horário local\nnome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")\n5. Datas e horários em diferentes fusos horários:\nConverta a data e hora atuais para o fuso horário UTC+0 (Londres).\nCrie uma variável que represente a data e hora em Nova York (fuso horário UTC-5).\nConverta a variável de Nova York para o fuso horário local.",
-        "detail": "Praticando.teste",
-        "documentation": {}
-    },
-    {
-        "label": "fuso_formatado",
-        "kind": 5,
-        "importPath": "Praticando.teste",
-        "description": "Praticando.teste",
-        "peekOfCode": "fuso_formatado = hora_hoje.strftime('%Z')\n# Obtendo o nome do fuso horário local\nnome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")\n5. Datas e horários em diferentes fusos horários:\nConverta a data e hora atuais para o fuso horário UTC+0 (Londres).\nCrie uma variável que represente a data e hora em Nova York (fuso horário UTC-5).\nConverta a variável de Nova York para o fuso horário local.",
-        "detail": "Praticando.teste",
-        "documentation": {}
-    },
-    {
-        "label": "nome_fuso_horario",
-        "kind": 5,
-        "importPath": "Praticando.teste",
-        "description": "Praticando.teste",
-        "peekOfCode": "nome_fuso_horario = time.tzname[time.localtime().tm_isdst]\nprint(f\"Fuso horário: {nome_fuso_horario} {fuso_formatado}\")\n5. Datas e horários em diferentes fusos horários:\nConverta a data e hora atuais para o fuso horário UTC+0 (Londres).\nCrie uma variável que represente a data e hora em Nova York (fuso horário UTC-5).\nConverta a variável de Nova York para o fuso horário local.",
-        "detail": "Praticando.teste",
         "documentation": {}
     },
     {
