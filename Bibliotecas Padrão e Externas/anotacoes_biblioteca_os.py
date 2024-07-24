@@ -99,3 +99,7 @@ drive='C:'
 usuario='Paulin'
 pasta_base='Downloads'
 caminho_personalizado=os.path.join(drive,r'\Users',usuario,pasta_base)
+
+#============================================================================
+
+#A função os.path.join junta os caminhos de diretórios e arquivos, criando um caminho completo.Verifique o exercicio 50 para melhor entendimento
